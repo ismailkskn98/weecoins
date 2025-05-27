@@ -1,3 +1,9 @@
+import Hero from "@/components/home/hero";
+
 export default function Home() {
-  return <>Deneme 1 2 </>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
