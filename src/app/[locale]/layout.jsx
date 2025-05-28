@@ -28,6 +28,9 @@ export const metadata = {
   keywords: "weeCoins, WeeCoins, weecoins, kripto para, dijital varlıklar, blok zinciri, ticaret, güvenli cüzdanlar",
   author: "WeeCoins International",
   robots: "index, follow",
+  icons: {
+    icon: [{ url: "/images/weecoins-icon.png", type: "image/png", sizes: "512x512" }],
+  },
 };
 
 export default async function RootLayout({ children, params }) {
@@ -41,7 +44,7 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale}>
       <ReactLenis root options={{ duration: 1.3, smooth: true, smoothTouch: false }}>
-        <body className={`${inter.className} antialiased overflow-x-hidden font-inter bg-background text-textBlack`}>
+        <body className={`${inter.className} antialiased font-inter bg-main-black text-main-white`}>
           <NextIntlClientProvider messages={messages}>
             <Header />
             {children}

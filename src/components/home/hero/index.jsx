@@ -4,8 +4,9 @@ import HeroBackground from "./HeroBackground";
 
 export default function Hero() {
   return (
-    <main className="relative min-h-[calc(100vh-73px)] w-full fluid gridContainer">
+    <main className="relative h-screen w-full fluid gridContainer">
       <HeroBackground />
+      <div className="absolute inset-0 fluid w-full h-full blur-sm bg-main-black/40 -z-10"></div>
       <HeroContent />
     </main>
   );

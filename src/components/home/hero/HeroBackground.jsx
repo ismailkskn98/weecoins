@@ -10,13 +10,13 @@ export default function HeroBackground() {
   }, []);
 
   const { rive, RiveComponent } = useRive({
-    src: "/rive/hero-bg.riv",
+    src: "/rive/hero-bg-2.riv",
     stateMachines: "State Machine 1",
     autoplay: true,
     layout: new Layout({
-      fit: Fit.Contain,
+      fit: Fit.Cover,
       alignment: Alignment.Center,
     }),
   });
-  return shouldRender ? <RiveComponent className="fluid absolute inset-0 -z-10 h-full w-full" /> : null;
+  return shouldRender ? <RiveComponent className="opacity-50 fluid absolute inset-0 -z-20 h-full w-full" /> : null;
 }

@@ -5,11 +5,11 @@ import HeaderRight from "./headerRight";
 
 export default function Header() {
   return (
-    <header className="w-full fluid gridContainer py-3">
+    <header className="fixed z-50 w-full fluid gridContainer py-6">
       <main className="w-full mx-auto grid grid-cols-3 justify-items-center gap-x-2">
-        <article className="w-full flex items-center justify-start gap-1">
-          <Image src="/images/weecoins-icon.png" width={100} height={100} alt="weecoins logo" className="object-contain max-w-[50px] object-center" />
-          <span className="text-xl font-medium">WeeCoins</span>
+        <article className="w-full flex items-center justify-start gap-1.5">
+          <Image src="/images/weecoins-icon.png" width={100} height={100} alt="weecoins logo" className="object-contain max-w-[45px] object-center" />
+          <span className="text-xl font-medium text-background">WeeCoins</span>
         </article>
         <Navbar />
         <HeaderRight />
