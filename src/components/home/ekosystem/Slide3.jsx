@@ -1,6 +1,6 @@
 export default function Slide3() {
   return (
-    <>
+    <article className="w-[70%] mx-5 min-h-[70vh] rounded-lg sticky flex items-center justify-center bg-purple-600 top-[170px]">
       <div className="w-1/2">
         <img src="https://source.unsplash.com/random/800x600?sig=1" alt="Slide 1" className="w-full h-full object-cover" />
       </div>
@@ -8,6 +8,6 @@ export default function Slide3() {
         <h2 className="text-3xl font-bold mb-4">Slide 1</h2>
         <p>Bu birinci kartın içeriği.</p>
       </div>
-    </>
+    </article>
   );
 }

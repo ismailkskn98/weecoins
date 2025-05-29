@@ -44,7 +44,7 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale}>
       <ReactLenis root options={{ duration: 1.3, smooth: true, smoothTouch: false }}>
-        <body className={`${inter.className} antialiased font-inter bg-main-black text-main-white`}>
+        <body className={`${inter.className} antialiased font-inter bg-main-black text-main-white overflow-x-hidden`}>
           <NextIntlClientProvider messages={messages}>
             <Header />
             {children}
