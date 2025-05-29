@@ -30,8 +30,8 @@ export default function LogoCarousel() {
 
   return (
     <section className="fluid gridContainer relative z-50 flex h-36 w-full items-center bg-theme-black my-5">
-      <div className="fluid from-bg-hero-bg to-bg-hero-bg absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-l sm:w-36 md:w-52 lg:w-64"></div>
-      <div className="fluid from-bg-hero-bg to-bg-hero-bg absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-r sm:w-36 md:w-52 lg:w-64"></div>
+      <div className="fluid from-transparent to-main-black absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-l sm:w-36 md:w-52 lg:w-64"></div>
+      <div className="fluid from-transparent to-main-black absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-r sm:w-36 md:w-52 lg:w-64"></div>
 
       <Swiper
         modules={[Autoplay]}
@@ -50,7 +50,7 @@ export default function LogoCarousel() {
           1024: { slidesPerView: 4 },
           1280: { slidesPerView: 5 },
         }}
-        className="w-full h-full"
+        className="w-full h-full fluid"
       >
         {items.map((item, index) => (
           <SwiperSlide key={index} className="flex w-auto items-center justify-center">
