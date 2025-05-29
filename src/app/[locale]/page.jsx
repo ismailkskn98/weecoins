@@ -3,6 +3,7 @@ import Hero from "@/components/home/hero";
 import LogoCarousel from "@/components/home/logoCarousel";
 import ServiceCards from "@/components/home/services";
 import CardIcon from "@/components/home/services/Card1Icons";
+import VideoContainer from "@/components/home/videoContainer";
 
 export default function Home() {
   const cardsItem = [
@@ -31,8 +32,9 @@ export default function Home() {
     <>
       <Hero />
       <LogoCarousel />
+      <VideoContainer />
+      {/* <ServiceCards cardsItem={cardsItem} /> */}
       <Ecosystem />
-      <ServiceCards cardsItem={cardsItem} />
     </>
   );
 }

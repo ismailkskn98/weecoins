@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 export default function ServiceCards({ cardsItem }) {
   return (
-    <main className="fluid gridContainer w-full bg-theme-black py-16">
+    <main className="fluid gridContainer w-full bg-zinc-900 py-16">
       <article className="grid w-full grid-cols-1 justify-items-center gap-10 sm:grid-cols-2 md:gap-24 lg:grid-cols-4">
         {cardsItem.map((card, index) => (
           <motion.div
