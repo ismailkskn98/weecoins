@@ -18,5 +18,5 @@ export default function HeroBackground() {
       alignment: Alignment.Center,
     }),
   });
-  return shouldRender ? <RiveComponent className="opacity-50 fluid absolute inset-0 -z-20 h-full w-full" /> : null;
+  return shouldRender ? <RiveComponent className="opacity-50 fluid absolute inset-0 -z-10 h-full w-full" /> : null;
 }
