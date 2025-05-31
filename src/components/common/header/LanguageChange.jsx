@@ -20,7 +20,7 @@ export default function LanguageChange() {
           {locale}
         </button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent>
+      <DropdownMenuContent className={"bg-main-white text-main-black"}>
         <DropdownMenuItem onClick={() => startTransition(() => router.replace(pathname, { locale: "tr" }))}>
           <span className="flex cursor-pointer flex-nowrap items-center gap-2 text-sm">
             <Image src="https://flagcdn.com/24x18/tr.png" alt="Türkçe" width={24} height={18} className="h-4 w-5 object-cover" />

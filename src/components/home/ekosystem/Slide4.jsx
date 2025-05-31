@@ -14,6 +14,9 @@ export default function Slide4({ classNames, index }) {
       <span className="inline-block bg-main-black absolute -right-1.5 top-1/2 -translate-y-1/2 w-3 h-1/6"></span>
       <span className="inline-block bg-main-black absolute left-1/2 -top-1.5 -translate-x-1/2 w-1/6 h-3"></span>
       <span className="inline-block bg-main-black absolute left-1/2 -bottom-1.5 -translate-x-1/2 w-1/6 h-3"></span>
+      <div className="relative flex-1 h-full rounded-xl overflow-hidden p-2">
+        <Image src={"/images/weekobi-card.webp"} alt="weezard" width={1100} height={1100} className="relative z-10 object-cover object-left w-full h-full rounded-xl" />
+      </div>
       <div className="w-full h-full max-w-[50%] flex flex-col items-start justify-between gap-2 p-9 text-text-black">
         <div className="w-full flex flex-col items-start gap-2">
           <h2 className="text-5xl font-medium mb-4">WeeKobi</h2>
@@ -36,10 +39,7 @@ export default function Slide4({ classNames, index }) {
             </Link>
           </div>
         </div>
-        <div className="mt-6 text-2xl font-semibold tracking-widest text-logo-button [font-feature-settings:'zero'] p-2 rounded-xl bg-main-black">04</div>
-      </div>
-      <div className="relative flex-1 h-full rounded-xl overflow-hidden p-2">
-        <Image src={"/images/weekobi-card.webp"} alt="weezard" width={1100} height={1100} className="relative z-10 object-cover object-left w-full h-full rounded-xl" />
+        <div className="mt-6 text-2xl self-end font-semibold tracking-widest text-logo-button [font-feature-settings:'zero'] p-2 rounded-xl bg-main-black">04</div>
       </div>
     </article>
   );
