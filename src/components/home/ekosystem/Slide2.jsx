@@ -20,7 +20,7 @@ export default function Slide2({ classNames, index }) {
       <div className="w-full h-full max-w-[42%] flex flex-col items-start justify-between gap-2 p-10 text-text-black">
         <div className="w-full flex flex-col items-start gap-2">
           <h2 className="text-5xl font-medium mb-4">WeeGold Network Nedir?</h2>
-          <p className="text-[clamp(12px,1.05vw,18px)] text-text-black/70 tracking-wide">
+          <p className="text-[clamp(12px,1.05vw,17px)] text-text-black/70 tracking-wide">
             WeeGold ağı, WeeComi International tarafından işletilen, kripto para dünyasında geniş kullanım alanlarına sahip bir ağdır. 2020 yılında piyasaya sürülen WeeCoins Premium (WCP) ve WeeCoins (WCS) kripto
             paralarını destekler ve çeşitli uluslararası platformlarda aktif olarak işlem görür.
           </p>

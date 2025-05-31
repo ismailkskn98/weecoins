@@ -7,7 +7,7 @@ import Slide1Swiper from "./Slide1Swiper";
 export default function Slide1({ classNames, index }) {
   return (
     <article
-      className={`w-full max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex items-start justify-center gap-8 bg-white p-3 overflow-hidden ${classNames}`}
+      className={`w-full max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex items-start justify-center gap-8 bg-zinc-900 p-3 overflow-hidden ${classNames}`}
       style={{
         top: `calc(${index} * 1.5rem + 4rem)`,
       }}
@@ -16,10 +16,10 @@ export default function Slide1({ classNames, index }) {
       <span className="inline-block bg-main-black absolute -right-1.5 top-1/2 -translate-y-1/2 w-3 h-1/6"></span>
       <span className="inline-block bg-main-black absolute left-1/2 -top-1.5 -translate-x-1/2 w-1/6 h-3"></span>
       <span className="inline-block bg-main-black absolute left-1/2 -bottom-1.5 -translate-x-1/2 w-1/6 h-3"></span>
-      <div className="w-full h-full max-w-[50%] flex flex-col items-start justify-between gap-2 p-9 text-text-black">
+      <div className="w-full h-full max-w-[50%] flex flex-col items-start justify-between gap-2 p-9 text-main-white">
         <div className="w-full flex flex-col items-start gap-2">
           <h2 className="text-5xl font-medium mb-4">WeeCoins</h2>
-          <p className="text-[clamp(12px,1.05vw,18px)] text-text-black/70 tracking-wide">
+          <p className="text-[clamp(12px,1.05vw,17px)] text-main-white/70 tracking-wide">
             WeeCoins International, değerli iş ortaklarımıza kendi sosyal ticaret işlerini kurmaları için en iyi fırsatları sunar. WeeCoins, güçlü ve güvenli altyapısı ile kullanıcılarına benzersiz bir deneyim
             yaşatırken, aynı zamanda kripto para birimlerinin geleceğine dair güvenilir ve yenilikçi çözümler sunar.
           </p>

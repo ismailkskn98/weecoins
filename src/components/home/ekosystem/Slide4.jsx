@@ -20,7 +20,7 @@ export default function Slide4({ classNames, index }) {
       <div className="w-full h-full max-w-[50%] flex flex-col items-start justify-between gap-2 p-9 text-text-black">
         <div className="w-full flex flex-col items-start gap-2">
           <h2 className="text-5xl font-medium mb-4">WeeKobi</h2>
-          <p className="text-[clamp(12px,1.05vw,18px)] text-text-black/70 tracking-wide">
+          <p className="text-[clamp(12px,1.05vw,17px)] text-text-black/70 tracking-wide">
             Weekobi'ye kaydol, satış yaptıkça hem sen hem müşterilerin WCP kazansın. Satışa dayalı reklam modeliyle görünürlüğün artar, kazancın büyür. Kazandığın WCP'yi sistemde tekrar kullan ya da değerlendir.
             Üstelik işletmen, WeeKobi kullanıcıları arasında öncelikli görünürlük kazanır. Müşterilerin seni kolayca keşfederek güvenle alışveriş yapar.
           </p>
@@ -28,7 +28,7 @@ export default function Slide4({ classNames, index }) {
             <Link
               href="https://kobi.weecomi.com/"
               target="_blank"
-              className="relative group overflow-hidden flex items-center gap-2 bg-main-black text-main-white px-3 py-2 text-sm xl:text-base rounded-sm before:absolute before:content-['WeeKobi'] before:top-1/2 before:-translate-y-12 before:left-1/2 before:-translate-x-1/2 before:transition-all before:duration-300 hover:before:-translate-y-1/2 before:transform"
+              className="relative group overflow-hidden flex items-center gap-2 bg-main-black text-logo-button px-3 py-2 text-sm xl:text-base rounded-sm before:absolute before:content-['WeeKobi'] before:top-1/2 before:-translate-y-12 before:left-1/2 before:-translate-x-1/2 before:transition-all before:duration-300 hover:before:-translate-y-1/2 before:transform"
             >
               <span className="inline-block bg-logo-button absolute -left-[1.5px] top-1/2 -translate-y-1/2 w-[3px] h-4"></span>
               <span className="inline-block bg-logo-button absolute -right-[1.5px] top-1/2 -translate-y-1/2 w-[3px] h-4"></span>
