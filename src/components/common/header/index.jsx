@@ -5,6 +5,7 @@ import Navbar from "./navbar";
 import HeaderRight from "./headerRight";
 import MobileNavbar from "./mobileNavbar";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
+import { Link } from "@/i18n/navgation";
 
 export default function Header() {
   const { scrollY, scrollYProgress } = useScroll();
@@ -43,10 +44,10 @@ export default function Header() {
     >
       <HeaderRight classNames={"flex lg:hidden pb-3 pb-1"} />
       <main className="w-full mx-auto grid grid-cols-2 lg:grid-cols-3 justify-items-center gap-x-2">
-        <article className="w-full flex items-center justify-start gap-1.5">
+        <Link href="/" className="w-full flex items-center justify-start gap-1.5">
           <Image src="/images/weecoins-icon.png" width={100} height={100} alt="weecoins logo" className="object-contain max-w-[35px] lg:max-w-[45px] object-center" />
           <span className="text-lg lg:text-xl font-medium text-background">WeeCoins</span>
-        </article>
+        </Link>
         <Navbar />
         <MobileNavbar />
         <HeaderRight classNames={"hidden lg:flex"} />

@@ -35,12 +35,6 @@ export default function Navbar() {
                 transition={{ type: "spring", stiffness: 500, damping: 30 }}
                 className="inline-block bg-gradient-to-l from-transparent via-white to-transparent absolute left-1/2 top-0 -translate-x-1/2 w-full rounded-xl h-[2px]"
               ></motion.span>
-              <motion.span
-                layoutId="activeNavBg"
-                initial={false}
-                transition={{ type: "spring", stiffness: 500, damping: 30 }}
-                className="inline-block bg-gradient-to-b from-white/10 to-transparent absolute left-1/2 top-0 -translate-x-1/2 w-full h-full"
-              ></motion.span>
             </>
           )}
           {item.name}

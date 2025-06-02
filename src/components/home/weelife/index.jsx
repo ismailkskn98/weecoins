@@ -25,20 +25,22 @@ export default function WeeLife() {
       title: "Umudu Paylaş, Geleceği Aydınlat",
       content:
         "Bu bayramda siz de katkıda bulunarak Burkina Faso’daki kardeşlerimizin hayatına dokunabilirsiniz. Kurban bağışlarınızla sadece bir ibadeti yerine getirmekle kalmayacak, aynı zamanda bir topluluğun geleceğine umut ışığı olacaksınız. Daha anlamlı bir bayram için bize katılın.",
-      classNames: "h-[50vh] 3xl:h-[40vh]",
+      classNames: "h-[65vh] md:h-[50vh] 3xl:h-[40vh]",
     },
   ];
 
   return (
-    <main className="relative w-full rounded-2xl fluid gridContainer text-main-white h-auto gap-[4vw] pt-32">
+    <main className="relative w-full rounded-2xl fluid gridContainer text-main-white h-auto gap-y-[4vw] pt-20 md:pt-32">
       <article className="w-full flex items-center justify-center mb-16">
         <div className="flex flex-col items-center justify-center gap-3 max-w-3xl text-center">
-          <h2 className="w-full capitalize text-main-white text-6xl font-semibold">Birlikte Daha Güçlüyüz</h2>
-          <p className="w-full text-lg text-main-white/80 font-medium">Kurban bağışınızı WeeCoins aracılığıyla Burkina Faso’daki kardeşlerimize ulaştırıyor, umut ve mutluluğu birlikte taşıyoruz.</p>
+          <h2 className="w-full capitalize text-main-white text-3xl sm:text-4xl lg:text-5xl 3xl:text-6xl font-semibold">Birlikte Daha Güçlüyüz</h2>
+          <p className="w-full text-sm sm:text-base lg:text-lg text-main-white/80 font-medium">
+            Kurban bağışınızı WeeCoins aracılığıyla Burkina Faso’daki kardeşlerimize ulaştırıyor, umut ve mutluluğu birlikte taşıyoruz.
+          </p>
         </div>
       </article>
-      <section className="w-full mx-auto max-w-9/12 flex items-start justify-between gap-16">
-        <main className="flex-1 flex flex-col items-start gap-16 max-w-2xl">
+      <section className="w-full mx-auto max-w-full xl:max-w-11/12 2xl:max-w-10/12 3xl:max-w-9/12 flex md:flex-row flex-col items-start justify-between gap-16">
+        <main className="order-2 md:order-1 flex-1 flex flex-col items-start gap-16 max-w-2xl">
           {weeLifeItems.map((item, i) => (
             <article key={i} className={`w-full flex flex-col items-start gap-3 ${item.classNames}`}>
               <h3 className="text-4xl font-medium">{item.title}</h3>
@@ -46,8 +48,8 @@ export default function WeeLife() {
             </article>
           ))}
         </main>
-        <div className="sticky top-32 w-[400px] 2xl:w-[450px] max-h-[500px] xl:max-h-[500px] 3xl:max-h-[550px] overflow-hidden border-2 border-zinc-700 rounded-xl -mt-6">
-          <Image src={"/images/bagiss.jpg"} alt="kurban bagisi" width={500} height={800} className="object-fill object-center w-full h-full rounded-xl" />
+        <div className="order-1 md:order-2 sticky top-28 md:top-32 w-full lg:w-[350px] 2xl:w-[450px] max-h-[300px] lg:max-h-[500px] 2xl:max-h-[500px] 3xl:max-h-[550px] overflow-hidden border-2 border-zinc-700 rounded-xl -mt-6">
+          <Image src={"/images/bagiss.jpg"} alt="kurban bagisi" width={500} height={800} className="object-cover md:object-fill object-top md:object-center w-full h-full rounded-xl" />
         </div>
       </section>
     </main>

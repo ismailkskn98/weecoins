@@ -1,5 +1,5 @@
 import React from "react";
-import HeroAnimateIcons from "./heroAnimateIcons";
+// import HeroAnimateIcons from "./heroAnimateIcons";
 import { Link } from "@/i18n/navgation";
 import { FaFileDownload } from "react-icons/fa";
 import HeroAnimateIconsMobile from "./heroAnimateIconsMobile";
@@ -7,11 +7,11 @@ import HeroAnimateIconsMobile from "./heroAnimateIconsMobile";
 export default function HeroContent() {
   return (
     <article className="relative max-w-4xl 3xl:max-w-6xl mx-auto flex flex-col items-center justify-center gap-2 text-center px-2 mt-14 md:mt-0">
-      <HeroAnimateIcons />
+      {/* <HeroAnimateIcons /> */}
       <h1 className="text-4xl sm:text-5xl xl:text-6xl 3xl:text-7xl font-bold capitalize">Dijital Geleceğin Anahtarı: Weecoins</h1>
       <p className="text-base sm:text-xl mt-2">Weecoins ile kripto varlıklarınızı yönetin, kazanç fırsatlarını değerlendirin ve dijital ekonomide yerinizi alın.</p>
       <HeroAnimateIconsMobile />
-      <div className="flex items-center gap-4 mt-10">
+      <div className="flex items-center gap-4 mt-10 2xl:mt-12 3xl:mt-14">
         <Link
           href="/ecosystem"
           className="relative group overflow-hidden bg-main-white text-text-black px-3 py-2 text-sm xl:text-base rounded-sm before:absolute before:content-['Ekosistem'] before:top-1/2 before:-translate-y-12 before:left-1/2 before:-translate-x-1/2 before:transition-all before:duration-300 hover:before:-translate-y-1/2 before:transform"

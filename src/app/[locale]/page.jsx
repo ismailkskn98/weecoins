@@ -30,24 +30,24 @@ export default async function Home() {
 
   const cardsItem = [
     {
-      title: "Backoffice",
-      description: "Backoffice, WeeGold ağını da destekleyen çeşitli kripto varlık çiftlerinin bulunduğu yönetim platformudur.",
-      icon: <CardIcon src={"/rive/card-2.riv"} stateMachines={"state_main"} classNames={"scale-110"} />,
+      title: "KOBİ’lerle Güçlü Bağlantılar",
+      description: "5600’den fazla küçük ve orta ölçekli işletme, dijital dönüşüm yolculuğunda bizimle ilerliyor. Güvenilir ve ölçeklenebilir çözümler sunuyoruz.",
+      count: "5600",
     },
     {
-      title: "WeePoint",
-      description: "WeePoint, WeeCoins ile alışveriş yapabileceğiniz anlaşmalı mağazaların tümünü kapsar. Bu mağazalarda, kullanıcılar doğrudan ya da para puan olarak WeeCoins kullanabileceklerdir.",
-      icon: <CardIcon src={"/rive/card-3.riv"} stateMachines={"state_main"} />,
+      title: "Genişleyen Müşteri Ekosistemi",
+      description: "12000’i aşkın memnun müşterimizle, iş süreçlerini kolaylaştıran ve verimliliği artıran çözümler sunmaya devam ediyoruz.",
+      count: "12000",
     },
     {
-      title: "WeeRobot",
-      description: "WeeRobot, içerisinde bulunan indikatörler ve hesaplama araçları ile anlık alım-satım sinyalleri oluşturan, yapay zeka destekli bir al-sat robotudur.",
-      icon: <CardIcon src={"/rive/radar.riv"} stateMachines={"State Machine 1"} />,
+      title: "Küresel Hizmet Ağı",
+      description: "9 farklı ülkede aktif olarak hizmet veriyoruz. Dijital sınırları aşan çözümlerimizle dünya genelinde etki yaratıyoruz.",
+      count: "9",
     },
     {
-      title: "WeeMoney",
-      description: "Reklam izleyerek, oyun oynayarak ve bilginizi yarıştırarak çeşitli Weecoins ödülleri kazanabileceğiniz interaktif bir mobil uygulamadır.",
-      icon: <CardIcon src={"/rive/card-1.riv"} stateMachines={"state_main"} />,
+      title: "Stratejik İş Ortaklıkları",
+      description: "24 güçlü iş ortağıyla birlikte inovasyonu destekleyen bir ekosistem inşa ediyoruz. Birlikte daha fazlasını başarıyoruz.",
+      count: "24",
     },
   ];
 

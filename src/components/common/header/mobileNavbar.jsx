@@ -24,7 +24,7 @@ export default function MobileNavbar() {
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger className="block md:hidden justify-self-end">
-        <SlMenu className="text-main-white" />
+        <SlMenu className="text-main-white text-lg" />
       </SheetTrigger>
       <SheetContent className={"z-[99999] bg-main-black border-none h-screen overflow-x-hidden overflow-y-auto py-10"}>
         <SheetHeader>

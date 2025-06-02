@@ -20,11 +20,22 @@ export default function YoutubeCarousel({ videos = [] }) {
   };
 
   return (
-    <main className="relative fluid gridContainer mt-36 mb-24 overflow-hidden">
+    <main className="relative fluid gridContainer mt-20 sm:mt-28 lg:mt-36 mb-20 sm:mb-24 overflow-hidden">
       <Swiper
         modules={[Pagination, Autoplay]}
-        spaceBetween={30}
+        spaceBetween={25}
         slidesPerView={4}
+        breakpoints={{
+          900: {
+            slidesPerView: 4,
+          },
+          500: {
+            slidesPerView: 3,
+          },
+          100: {
+            slidesPerView: 2,
+          },
+        }}
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
@@ -35,7 +46,7 @@ export default function YoutubeCarousel({ videos = [] }) {
           delay: 6000,
           disableOnInteraction: false,
         }}
-        className="w-full max-w-10/12 h-[240px]"
+        className="w-full max-w-full xl:max-w-10/12 h-[150px] sm:h-[200px] md:h-[240px] !pb-7"
       >
         {videos.map((item, i) => (
           <SwiperSlide key={i} className="bg-main-black rounded-sm h-full relative group cursor-pointer overflow-hidden">
@@ -59,7 +70,7 @@ export default function YoutubeCarousel({ videos = [] }) {
                 <div className="absolute z-10 inset-0 w-full h-full blur-sm bg-main-black/50"></div>
                 <div className="flex flex-col items-start justify-center h-full gap-1 text-start relative z-50">
                   <h4 className="font-medium text-main-white text-sm uppercase"> {textLimitCharecter(item.snippet.title)}</h4>
-                  {item.snippet.description.length > 0 && <p className="font-medium text-main-white/80 text-xs lowercase">{textLimitCharecter(item.snippet.description, 70)}</p>}
+                  {item.snippet.description.length > 0 && <p className="sm:block hidden font-medium text-main-white/80 text-xs lowercase">{textLimitCharecter(item.snippet.description, 70)}</p>}
                 </div>
               </div>
             </ToolTip>

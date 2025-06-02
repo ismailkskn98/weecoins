@@ -6,7 +6,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 export default function Slide3({ classNames, index }) {
   return (
     <article
-      className={`w-full max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex items-start justify-center gap-8 bg-zinc-900 p-3 overflow-hidden ${classNames}`}
+      className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex flex-col lg:flex-row items-start justify-center gap-4 md:gap-8 bg-zinc-900 p-3 overflow-hidden ${classNames}`}
       style={{
         top: `calc(${index} * 1.5rem + 4rem)`,
       }}
@@ -15,9 +15,9 @@ export default function Slide3({ classNames, index }) {
       <span className="inline-block bg-main-black absolute -right-1.5 top-1/2 -translate-y-1/2 w-3 h-1/6 rounded-2xl"></span>
       <span className="inline-block bg-main-black absolute left-1/2 -top-1.5 -translate-x-1/2 w-1/6 h-3 rounded-2xl"></span>
       <span className="inline-block bg-main-black absolute left-1/2 -bottom-1.5 -translate-x-1/2 w-1/6 h-3 rounded-2xl"></span>
-      <div className="w-full h-full max-w-[50%] flex flex-col items-start gap-2 justify-between p-9 text-main-white">
+      <div className="w-full h-full max-w-full lg:max-w-[50%] flex flex-col items-start gap-2 justify-between p-5 md:p-9 text-main-white">
         <div className="w-full flex flex-col items-start gap-2">
-          <h2 className="text-5xl font-medium mb-4">WeeZard</h2>
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-4">WeeZard</h2>
           <p className="text-[clamp(12px,1.05vw,17px)] text-main-white/70 tracking-wide">
             WeeZard ile eğlenceyi kazanca dönüştür! Jackpot, kazı kazan gibi oyunlarla vakit geçirirken WCP kazanırsın. Kazandığın WCP'leri çeşitli avantajlar için kullanabilir, daha fazlasını keşfettikçe keyfini
             katlayabilirsin. Her oyunda şansını dene, her kazançta heyecanı ikiye katla!
@@ -37,10 +37,10 @@ export default function Slide3({ classNames, index }) {
             </Link>
           </div>
         </div>
-        <div className="mt-6 text-2xl font-semibold tracking-widest text-main-white [font-feature-settings:'zero'] p-2 rounded-xl bg-main-black">03</div>
+        <div className="md:block hidden mt-6 text-2xl font-semibold tracking-widest text-main-white [font-feature-settings:'zero'] p-2 rounded-xl bg-main-black">03</div>
       </div>
-      <div className="relative flex-1 h-full rounded-xl overflow-hidden pt-12">
-        <Image src={"/images/weezard-card.webp"} alt="weezard" width={400} height={800} className="absolute z-10 left-1/2 -translate-x-1/2 top-12 object-contain object-center" />
+      <div className="relative flex-1 w-full h-full min-h-[50%] lg:min-h-auto rounded-xl overflow-hidden lg:pt-12">
+        <Image src={"/images/weezard-card.webp"} alt="weezard" width={400} height={800} className="absolute z-10 left-1/2 -translate-x-1/2 top-4 lg:top-12 object-contain object-center" />
         <DotBackgroundDemo />
       </div>
     </article>

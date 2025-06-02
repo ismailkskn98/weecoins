@@ -146,3 +146,18 @@
     animation: spin 2s linear infinite;
   }
 }
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 1px !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fdc739 !important;
+}
