@@ -6,30 +6,34 @@ import "swiper/css";
 import Image from "next/image";
 
 export default function Slide1Swiper() {
-  const [windowWidth, setWindowWidth] = useState(null);
+  const [isClient, setIsClient] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(0);
 
   useEffect(() => {
+    setIsClient(true);
+    setWindowWidth(window.innerWidth);
+
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  if (windowWidth === null) return null;
+  if (!isClient) {
+    return <div className="w-full h-[150px] lg:h-[570px]" />;
+  }
 
-  const isVertical = windowWidth > 1024;
-  const swiperClass = `w-full ${isVertical ? "lg:w-[150px] h-[570px]" : "h-[150px]"}`;
+  const swiperClass = `w-full ${windowWidth > 1024 ? "lg:w-[150px] h-[570px]" : "h-[150px]"}`;
 
   return (
     <main className={`relative z-10 w-full`}>
       <Swiper
-        direction={isVertical > 1024 ? "vertical" : "horizontal"}
+        direction={windowWidth > 1024 ? "vertical" : "horizontal"}
         className={swiperClass}
         modules={[Autoplay]}
         spaceBetween={20}
-        slidesPerView={isVertical > 1024 ? 4 : 3}
+        slidesPerView={windowWidth > 1024 ? 4 : 3}
         autoplay={{ disableOnInteraction: false, delay: 2000 }}
         loop
       >

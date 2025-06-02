@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 export default function ServiceCards({ cardsItem }) {
   return (
     <main className="fluid gridContainer w-full bg-zinc-900 py-16">
-      <article className="grid w-full grid-cols-1 justify-items-center gap-10 sm:grid-cols-2 md:gap-24 lg:grid-cols-4">
+      <article className="grid w-full grid-cols-1 justify-items-center gap-10 2xl:gap-16 3xl:gap-20 sm:grid-cols-2 lg:grid-cols-4">
         {cardsItem.map((card, index) => (
           <motion.div key={index} className="relative flex flex-col items-center gap-8 overflow-hidden rounded-lg border border-white/10 pb-6 pt-5 text-theme-white sm:items-start">
             <div className="relative h-36 w-full pt-8 flex items-center justify-center gap-1 font-semibold text-5xl">

@@ -6,29 +6,32 @@ import "swiper/css";
 import Image from "next/image";
 
 export default function Slide5Swiper() {
-  const [windowWidth, setWindowWidth] = useState(null);
+  const [isClient, setIsClient] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(0);
 
   useEffect(() => {
+    setIsClient(true);
+    setWindowWidth(window.innerWidth);
+
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  if (windowWidth === null) return null;
-
-  const isVertical = windowWidth > 1024;
+  if (!isClient) {
+    return <div className="w-full h-[250px] lg:h-[570px] rounded-xl" />;
+  }
 
   return (
     <main className="relative w-full z-10">
       <Swiper
-        direction={isVertical > 1024 ? "vertical" : "horizontal"}
+        direction={windowWidth > 1024 ? "vertical" : "horizontal"}
         className={`w-full lg:w-[350px] h-full max-h-[250px] lg:max-h-[570px] rounded-xl`}
         modules={[Autoplay]}
         spaceBetween={50}
-        slidesPerView={isVertical > 1024 ? 1 : 2}
+        slidesPerView={windowWidth > 1024 ? 1 : 2}
         autoplay={{ disableOnInteraction: false, delay: 3000 }}
         loop
       >
