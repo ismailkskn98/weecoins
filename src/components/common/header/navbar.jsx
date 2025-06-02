@@ -30,7 +30,13 @@ export default function Navbar() {
           {pathname === item.href && (
             <>
               <motion.span
-                layoutId="activeNav"
+                layoutId="activeNavTop"
+                initial={false}
+                transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                className="inline-block bg-gradient-to-l from-transparent via-white to-transparent absolute left-1/2 top-0 -translate-x-1/2 w-full rounded-xl h-[2px]"
+              ></motion.span>
+              <motion.span
+                layoutId="activeNavBottom"
                 initial={false}
                 transition={{ type: "spring", stiffness: 500, damping: 30 }}
                 className="inline-block bg-gradient-to-l from-transparent via-white to-transparent absolute left-1/2 bottom-0 -translate-x-1/2 w-full rounded-xl h-[2px]"

@@ -140,3 +140,9 @@
     @apply bg-main-white text-foreground;
   }
 }
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 2s linear infinite;
+  }
+}
