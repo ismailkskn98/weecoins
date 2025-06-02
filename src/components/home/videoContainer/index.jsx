@@ -21,7 +21,7 @@ export default function VideoContainer() {
   };
 
   return (
-    <main className="relative fluid min-h-screen w-full mx-auto bg-main-white rounded-xl pt-20">
+    <main className="relative fluid min-h-screen w-full mx-auto bg-main-white rounded-xl py-20 overflow-hidden">
       <span className="inline-block bg-main-black absolute -left-1.5 top-1/2 -translate-y-1/2 w-3 h-1/6 rounded-2xl"></span>
       <span className="inline-block bg-main-black absolute -right-1.5 top-1/2 -translate-y-1/2 w-3 h-1/6 rounded-2xl"></span>
       <span className="inline-block bg-main-black absolute left-1/2 -top-1.5 -translate-x-1/2 w-1/6 h-3 rounded-2xl"></span>

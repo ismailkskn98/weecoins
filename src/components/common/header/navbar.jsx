@@ -18,12 +18,12 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full h-full flex items-center justify-center gap-3">
+    <nav className="w-full h-full hidden md:flex items-center justify-end lg:justify-center gap-1.5">
       {navItems.map((item) => (
         <Link
           key={item.name}
           href={item.href}
-          className={classNames("relative mx-2 cursor-pointer font-semibold py-3 text-background/70 uppercase text-sm z-20 hover:text-background transition-all duration-200", {
+          className={classNames("relative mx-2 cursor-pointer font-semibold py-3 px-1.5 text-background/70 uppercase text-xs lg:text-sm z-20 hover:text-background transition-all duration-200", {
             "text-white hover:text-white": pathname === item.href,
           })}
         >
@@ -36,10 +36,10 @@ export default function Navbar() {
                 className="inline-block bg-gradient-to-l from-transparent via-white to-transparent absolute left-1/2 top-0 -translate-x-1/2 w-full rounded-xl h-[2px]"
               ></motion.span>
               <motion.span
-                layoutId="activeNavBottom"
+                layoutId="activeNavBg"
                 initial={false}
                 transition={{ type: "spring", stiffness: 500, damping: 30 }}
-                className="inline-block bg-gradient-to-l from-transparent via-white to-transparent absolute left-1/2 bottom-0 -translate-x-1/2 w-full rounded-xl h-[2px]"
+                className="inline-block bg-gradient-to-b from-white/10 to-transparent absolute left-1/2 top-0 -translate-x-1/2 w-full h-full"
               ></motion.span>
             </>
           )}

@@ -15,7 +15,7 @@ export default function LanguageChange() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="flex items-center gap-1 uppercase cursor-pointer">
+        <button className="flex items-center gap-1 uppercase cursor-pointer text-sm">
           <CiGlobe className="h-4 w-4" />
           {locale}
         </button>

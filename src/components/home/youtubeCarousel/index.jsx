@@ -20,7 +20,7 @@ export default function YoutubeCarousel({ videos = [] }) {
   };
 
   return (
-    <main className="relative fluid gridContainer mt-36 mb-24">
+    <main className="relative fluid gridContainer mt-36 mb-24 overflow-hidden">
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={30}
