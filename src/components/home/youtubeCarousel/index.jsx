@@ -5,10 +5,20 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
-import { FaPlay } from "react-icons/fa";
 import Image from "next/image";
+import ToolTip from "./toolTip";
+import OpenVideo from "./openVideo";
 
-export default function YoutubeCarousel() {
+export default function YoutubeCarousel({ videos = [] }) {
+  if (!videos || videos.length === 0) return null;
+
+  // console.log("YoutubeCarousel", videos[1]);
+
+  const textLimitCharecter = (text, maxLenght = 30) => {
+    if (text.lenght <= maxLenght) return text;
+    return text.slice(0, maxLenght) + "...";
+  };
+
   return (
     <main className="relative fluid gridContainer mt-36 mb-24">
       <Swiper
@@ -22,29 +32,39 @@ export default function YoutubeCarousel() {
         // onSlideChange={() => console.log("slide change")}
         loop={true}
         autoplay={{
-          delay: 2000,
+          delay: 6000,
           disableOnInteraction: false,
         }}
-        className="w-full max-w-10/12 h-[250px]"
+        className="w-full max-w-10/12 h-[240px]"
       >
-        <SwiperSlide className="text-main-black bg-amber-100 rounded-sm h-full relative group cursor-pointer">
-          <Image src={"/images/bagiss.jpg"} alt="youtube" width={400} height={400} className="relative z-10 object-contain object-center w-full h-full" />
-          <Image src={"/images/bagiss.jpg"} alt="youtube" width={400} height={400} className="absolute inset-0 w-full h-full object-cover blur-xs object-center" />
-          <div className="absolute z-30 left-1/2 top-1/2 -translate-1/2 w-[50px] h-[50px] rounded-full group-hover:scale-110 transition-transform duration-200 grid place-content-center overflow-hidden">
-            <div className="absolute inset-0 w-full h-full bg-main-black/80 blur-xl"></div>
-            <FaPlay className="absolute left-1/2 top-1/2 -translate-1/2 text-main-white mt-[1px] z-10 text-lg" />
-          </div>
-          <div className="absolute w-full inset-x-0 bottom-0 h-[30%] px-2 py-2.5  z-20 bg-gradient-to-t from-main-black via-main-black/50 to-transparent">
-            <div className="absolute z-10 inset-0 w-full h-full blur-sm bg-main-black/50"></div>
-            <div className="flex flex-col items-start gap-1 relative z-50">
-              <h4 className="font-medium text-main-white text-sm capitalize">Burası Başlık Kısmı Olacak</h4>
-              <p className="font-medium text-main-white/80 text-xs">Burası Başlık Kısmı Olacak</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-main-black bg-amber-400 rounded-sm h-full"></SwiperSlide>
-        <SwiperSlide className="text-main-black bg-amber-800 rounded-sm h-full">Slide 3</SwiperSlide>
-        <SwiperSlide className="text-main-black bg-amber-200 rounded-sm h-full">Slide 4</SwiperSlide>
+        {videos.map((item, i) => (
+          <SwiperSlide key={i} className="bg-main-black rounded-sm h-full relative group cursor-pointer overflow-hidden">
+            <Image
+              src={item.snippet.thumbnails.medium.url}
+              alt={item.snippet.title}
+              width={item.snippet.thumbnails.medium.width}
+              height={item.snippet.thumbnails.medium.height}
+              className="relative z-10 object-contain object-center w-full h-full"
+            />
+            <Image
+              src={item.snippet.thumbnails.medium.url}
+              alt={item.snippet.title}
+              width={item.snippet.thumbnails.medium.width}
+              height={item.snippet.thumbnails.medium.height}
+              className="absolute inset-0 w-full h-full object-cover blur-sm object-center"
+            />
+            <OpenVideo title={item.snippet.title} description={item.snippet.description} videoSrc={`https://www.youtube.com/embed/${item.id.videoId}?si=oTPj5Q6sfN3Vuxav`} />
+            <ToolTip text={item.snippet.title}>
+              <div className="absolute w-full inset-x-0 bottom-0 h-[32%] px-2 py-2.5 z-20 bg-gradient-to-t from-main-black via-main-black/80 to-transparent">
+                <div className="absolute z-10 inset-0 w-full h-full blur-sm bg-main-black/50"></div>
+                <div className="flex flex-col items-start justify-center h-full gap-1 text-start relative z-50">
+                  <h4 className="font-medium text-main-white text-sm uppercase"> {textLimitCharecter(item.snippet.title)}</h4>
+                  {item.snippet.description.length > 0 && <p className="font-medium text-main-white/80 text-xs lowercase">{textLimitCharecter(item.snippet.description, 70)}</p>}
+                </div>
+              </div>
+            </ToolTip>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </main>
   );

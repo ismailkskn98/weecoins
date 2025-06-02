@@ -28,10 +28,10 @@ export default function Slide5({ classNames, index }) {
               target="_blank"
               className="relative group overflow-hidden flex items-center gap-2 bg-main-black text-main-white px-3 py-2 text-sm xl:text-base rounded-sm before:absolute before:content-['WeeCard'] before:top-1/2 before:-translate-y-12 before:left-1/2 before:-translate-x-1/2 before:transition-all before:duration-300 hover:before:-translate-y-1/2 before:transform"
             >
-              <span className="inline-block bg-zinc-900 absolute -left-[1.5px] top-1/2 -translate-y-1/2 w-[3px] h-4"></span>
-              <span className="inline-block bg-zinc-900 absolute -right-[1.5px] top-1/2 -translate-y-1/2 w-[3px] h-4"></span>
-              <span className="inline-block bg-zinc-900 absolute left-1/2 top-[-1.5px] -translate-x-1/2 w-4 h-[3px]"></span>
-              <span className="inline-block bg-zinc-900 absolute left-1/2 bottom-[-1.5px] -translate-x-1/2 w-4 h-[3px]"></span>
+              <span className="inline-block bg-zinc-900 absolute -left-[1.5px] top-1/2 -translate-y-1/2 w-[3px] h-4 rounded-2xl"></span>
+              <span className="inline-block bg-zinc-900 absolute -right-[1.5px] top-1/2 -translate-y-1/2 w-[3px] h-4 rounded-2xl"></span>
+              <span className="inline-block bg-zinc-900 absolute left-1/2 top-[-1.5px] -translate-x-1/2 w-4 h-[3px] rounded-2xl"></span>
+              <span className="inline-block bg-zinc-900 absolute left-1/2 bottom-[-1.5px] -translate-x-1/2 w-4 h-[3px] rounded-2xl"></span>
               <span className="translate-y-0 group-hover:translate-y-12 transition-all duration-300 relative z-20 inline-block transform capitalize">WeeCard</span>
               <FaExternalLinkAlt className="text-sm translate-y-0 group-hover:translate-y-12 transition-all duration-300 relative z-20 inline-block transform" />
             </Link>

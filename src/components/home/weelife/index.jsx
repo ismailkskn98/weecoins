@@ -33,8 +33,8 @@ export default function WeeLife() {
     <main className="relative w-full rounded-2xl fluid gridContainer text-main-white h-auto gap-[4vw] pt-32">
       <article className="w-full flex items-center justify-center mb-16">
         <div className="flex flex-col items-center justify-center gap-3 max-w-3xl text-center">
-          <h2 className="w-full capitalize text-main-white text-6xl font-semibold">WeeCoins Ekosistemi İle Tanışın</h2>
-          <p className="w-full text-lg text-main-white/80 font-medium">WeeCoins ekosistemi, iş süreçlerinizi sadeleştirir, gelirlerinizi artırır ve kullanıcılarınıza benzersiz deneyimler sunar.</p>
+          <h2 className="w-full capitalize text-main-white text-6xl font-semibold">Birlikte Daha Güçlüyüz</h2>
+          <p className="w-full text-lg text-main-white/80 font-medium">Kurban bağışınızı WeeCoins aracılığıyla Burkina Faso’daki kardeşlerimize ulaştırıyor, umut ve mutluluğu birlikte taşıyoruz.</p>
         </div>
       </article>
       <section className="w-full mx-auto max-w-9/12 flex items-start justify-between gap-16">
