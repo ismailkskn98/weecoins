@@ -14,7 +14,6 @@ export default function MobileNavbar() {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "WeeGold", href: "/weegold" },
     { name: "Ekosystem", href: "/ekosystem" },
     { name: "News", href: "/news" },
     { name: "WeeLife", href: "/weelife" },

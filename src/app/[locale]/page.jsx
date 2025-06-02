@@ -2,7 +2,6 @@ import Ecosystem from "@/components/home/ekosystem";
 import Hero from "@/components/home/hero";
 import LogoCarousel from "@/components/home/logoCarousel";
 import ServiceCards from "@/components/home/services";
-import CardIcon from "@/components/home/services/Card1Icons";
 import VideoContainer from "@/components/home/videoContainer";
 import WeeLife from "@/components/home/weelife";
 import YoutubeCarousel from "@/components/home/youtubeCarousel";
