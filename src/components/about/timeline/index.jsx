@@ -42,7 +42,7 @@ export function TimelineDemo() {
       title: "WeeGold Network Nedir?",
       content: (
         <div>
-          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90">
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
             WeeGold ağı, WeeComi International tarafından işletilen, kripto para dünyasında geniş kullanım alanlarına sahip bir ağdır. 2020 yılında piyasaya sürülen WeeCoins Premium (WCP) ve WeeCoins (WCS) kripto
             paralarını destekler ve çeşitli uluslararası platformlarda aktif olarak işlem görür.
           </p>
@@ -70,14 +70,14 @@ export function TimelineDemo() {
       title: "Blockchain Nedir?",
       content: (
         <div>
-          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90">
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
             Blockchain, verilerin güvenli ve şeffaf bir şekilde saklanmasını sağlayan dağıtık bir defter teknolojisidir. Her veri parçası, zincirde bir blok olarak yer alır ve bu bloklar kriptografik olarak
             birbirine bağlıdır.
           </p>
           <div className="">
             <Image src="/images/blockchain.png" alt="blockchain" width={500} height={500} className="h-40 w-full rounded-lg object-contain md:h-60 lg:h-96" />
           </div>
-          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90">
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
             Bu teknoloji, özellikle kripto paralar için kullanılır, ancak finans, tedarik zinciri, dijital kimlik gibi birçok alanda da uygulanır. Blockchain’in merkezi olmayan yapısı, aracıları ortadan kaldırarak
             maliyetleri düşürür ve işlemleri hızlandırır.
           </p>
@@ -88,7 +88,7 @@ export function TimelineDemo() {
       title: "WeeComi International",
       content: (
         <div>
-          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90">
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
             2013 yılında kurulan WeeComi International, yapay zeka tabanlı kripto para borsalarında işlem gören projelere sahip bir yazılım şirketidir. Dünya genelinde 10 ülkede yatırımcısı bulunan şirketin, 40'a
             yakın iş ortağı ile global bir marka konumundadır.
           </p>
@@ -102,10 +102,12 @@ export function TimelineDemo() {
       title: "WeeLife",
       content: (
         <div>
-          <p className="mb-4 text-xs md:text-sm font-normal text-main-white/90">
+          <p className="mb-4 text-xs md:text-sm font-normal text-main-white/90 leading-7">
             WeeLife, WeeComi International tarafından Afrika'da, özellikle Tanzanya'da yaşam kalitesini artırmak amacıyla başlatılan bir yardım projesidir.
           </p>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">Proje, dünya çapında yardım zinciri oluşturmayı ve sosyal sorumluluk projelerini teşvik etmeyi hedefler.</p>
+          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200 leading-7">
+            Proje, dünya çapında yardım zinciri oluşturmayı ve sosyal sorumluluk projelerini teşvik etmeyi hedefler.
+          </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="/images/bagiss.jpg"
@@ -128,7 +130,7 @@ export function TimelineDemo() {
   ];
   return (
     <div className="relative w-full overflow-clip">
-      <Timeline data={data} />
+      <Timeline data={data} isAbout={true} />
     </div>
   );
 }

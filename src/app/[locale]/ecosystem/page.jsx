@@ -1,5 +1,6 @@
+import { EcosystemMain } from "@/components/ecosystem";
 import React from "react";
 
 export default function Ecosystem() {
-  return <div>Ecosystem</div>;
+  return <EcosystemMain />;
 }

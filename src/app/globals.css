@@ -161,3 +161,17 @@
 .swiper-pagination-bullet-active {
   background-color: #fdc739 !important;
 }
+
+@keyframes bounce-object-position {
+  0%,
+  100% {
+    object-position: top;
+  }
+  50% {
+    object-position: bottom;
+  }
+}
+
+.animate-object-bounce {
+  animation: bounce-object-position 5s ease-in-out infinite;
+}
