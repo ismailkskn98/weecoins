@@ -9,6 +9,7 @@ import YoutubeCarousel from "@/components/home/youtubeCarousel";
 const getYoutubeVideos = async () => {
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/youtube`, {
+      cache: "force-cache",
       next: { revalidate: 86400 },
     });
 
@@ -29,13 +30,13 @@ export default async function Home() {
 
   const cardsItem = [
     {
-      title: "KOBİ’lerle Güçlü Bağlantılar",
-      description: "5600’den fazla küçük ve orta ölçekli işletme, dijital dönüşüm yolculuğunda bizimle ilerliyor. Güvenilir ve ölçeklenebilir çözümler sunuyoruz.",
+      title: "KOBİ'lerle Güçlü Bağlantılar",
+      description: "5600'den fazla küçük ve orta ölçekli işletme, dijital dönüşüm yolculuğunda bizimle ilerliyor. Güvenilir ve ölçeklenebilir çözümler sunuyoruz.",
       count: "5600",
     },
     {
       title: "Genişleyen Müşteri Ekosistemi",
-      description: "12000’i aşkın memnun müşterimizle, iş süreçlerini kolaylaştıran ve verimliliği artıran çözümler sunmaya devam ediyoruz.",
+      description: "12000'i aşkın memnun müşterimizle, iş süreçlerini kolaylaştıran ve verimliliği artıran çözümler sunmaya devam ediyoruz.",
       count: "12000",
     },
     {

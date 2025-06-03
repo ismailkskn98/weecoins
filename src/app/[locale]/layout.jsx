@@ -7,6 +7,7 @@ import { ReactLenis } from "@/utils/lenis";
 import Header from "@/components/common/header";
 import Footer from "@/components/common/footer";
 import { getMessages } from "next-intl/server";
+import { Toaster } from "@/components/ui/sonner";
 
 const inter = localFont({
   src: [
@@ -47,6 +48,7 @@ export default async function RootLayout({ children, params }) {
         <body className={`${inter.className} antialiased font-inter bg-main-black text-main-white !overflow-x-hidden`}>
           <NextIntlClientProvider messages={messages}>
             <Header />
+            <Toaster />
             {children}
             <Footer />
           </NextIntlClientProvider>

@@ -1,0 +1,342 @@
+[
+  {
+    "kind": "youtube#searchResult",
+    "etag": "faEnrLezAWi2XMTj_4t777p5gFc",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "qj0L4CUX6j0"
+    },
+    "snippet": {
+      "publishedAt": "2025-05-24T07:41:46Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "#ZiyaŞakirYılmaz WeeCoins&#39;de!  #Motivasyon #basari #kazanc",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/qj0L4CUX6j0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qj0L4CUX6j0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/qj0L4CUX6j0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-05-24T07:41:46Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "gIIySUrnX0-w7DtiX_s3zoCyAAw",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "BrVNy5CKYl8"
+    },
+    "snippet": {
+      "publishedAt": "2025-05-21T06:43:33Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "WeeCoins Eğitim ve Tatil Kampı | İlham Veren Bir Deneyim! 🚀 Öğren, Paylaş, Büyü!",
+      "description": "WeeCoins Eğitim ve Tatil Kampı, sadece bir etkinlik değil; ilham veren bir yolculuktu. Her anında öğrenmenin, paylaşmanın ve ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/BrVNy5CKYl8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/BrVNy5CKYl8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/BrVNy5CKYl8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-05-21T06:43:33Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "z0rpWJSkedOMbgIHWsFWYFeD4qc",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "Z7qjtZfm8Tg"
+    },
+    "snippet": {
+      "publishedAt": "2025-05-17T11:02:46Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "WeeCoins Premium Antalya Eğitim ve Tatil Kampı&#39;na Hoş Geldiniz!",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Z7qjtZfm8Tg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Z7qjtZfm8Tg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Z7qjtZfm8Tg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-05-17T11:02:46Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "tnEq3H1fXII6l4ekxQYHZAA1fug",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "DX_q6VSpbRk"
+    },
+    "snippet": {
+      "publishedAt": "2025-05-14T07:32:54Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "WeeCoins ekosistemini yakından tanıyalım",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DX_q6VSpbRk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DX_q6VSpbRk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DX_q6VSpbRk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-05-14T07:32:54Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "aPGMFmYklOwnnTdekiUJ8MiJz9s",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "OiQT9HRxQAg"
+    },
+    "snippet": {
+      "publishedAt": "2025-05-01T09:13:20Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "Тот кто не мечтает, не сможет добиться успеха!",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/OiQT9HRxQAg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/OiQT9HRxQAg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/OiQT9HRxQAg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-05-01T09:13:20Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "7ZauhQBQKVh9j49FuIoQKOeMg5s",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "xQ0trp0p4Tw"
+    },
+    "snippet": {
+      "publishedAt": "2025-04-30T11:40:35Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "Hayal etmeyen başaramaz!",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xQ0trp0p4Tw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xQ0trp0p4Tw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xQ0trp0p4Tw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-04-30T11:40:35Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "3A5fElzEyMb2_N1gsE30H-Al5Bo",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "XgukJAYidY8"
+    },
+    "snippet": {
+      "publishedAt": "2025-04-16T06:58:31Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "Artık özgürsün! dediler…Ama kimse sana bu işin disiplin ve sistem kurmak gerektiğini söylemedi",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/XgukJAYidY8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XgukJAYidY8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XgukJAYidY8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-04-16T06:58:31Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "RPi-3Qh-O098Z82A78s1UBJz-A0",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "lgF-eRNgtqM"
+    },
+    "snippet": {
+      "publishedAt": "2025-04-12T06:59:19Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "Neden pes etmemelisin? #weecoinspremium #başarı #hedef",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/lgF-eRNgtqM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lgF-eRNgtqM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lgF-eRNgtqM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-04-12T06:59:19Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "nqpjelq1J_K5UmKslC-bphMTeCY",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "63tKuLUpkVs"
+    },
+    "snippet": {
+      "publishedAt": "2025-04-10T13:34:46Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "CNN Ekranlarında Kriptovalyuta Üzerine Dərinləşdirilmiş Bir Söhbət!",
+      "description": "CNN Ekranlarında Kriptovalyuta Üzerine Dərinləşdirilmiş Bir Söhbət! Kriptovalyuta dünyasının bilinməyən tərəfləri, maraq ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/63tKuLUpkVs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/63tKuLUpkVs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/63tKuLUpkVs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-04-10T13:34:46Z"
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "j8RHKSyJVXMN0C9ktvp4salUMSw",
+    "id": {
+      "kind": "youtube#video",
+      "videoId": "qw7sLu6zSdY"
+    },
+    "snippet": {
+      "publishedAt": "2025-04-10T13:19:05Z",
+      "channelId": "UCMdhtrNApntO9QsobuoB6TA",
+      "title": "Глубокий разговор о криптовалютах на экранах CNN!",
+      "description": "Глубокий разговор о криптовалютах на экранах CNN! Неизведанные стороны мира криптовалют, волнующие ...",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/qw7sLu6zSdY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qw7sLu6zSdY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/qw7sLu6zSdY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Weecomi & Weecoins & WeecoinsPremium INTL ",
+      "liveBroadcastContent": "none",
+      "publishTime": "2025-04-10T13:19:05Z"
+    }
+  }
+]

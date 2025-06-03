@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 
+export const revalidate = 86400; // 24 saat
+
 // https://www.googleapis.com/youtube/v3/search?key=YOUR_API_KEY&channelId=CHANNEL_ID&order=date&part=snippet&type=video&maxResults=10
 export async function GET() {
   const api_key = process.env.API_KEY;
@@ -10,14 +12,20 @@ export async function GET() {
   }
 
   try {
-    const res = await fetch(`https://www.googleapis.com/youtube/v3/search?key=${api_key}&channelId=${channel_id}&order=date&part=snippet&type=video&maxResults=10`);
+    const res = await fetch(`https://www.googleapis.com/youtube/v3/search?key=${api_key}&channelId=${channel_id}&order=date&part=snippet&type=video&maxResults=10`, {
+      cache: "no-store",
+    });
 
     if (!res.ok) {
       return NextResponse.json({ error: "YouTube API bulunamadı veya hatalı" }, { status: res.status });
     }
 
     const data = await res.json();
-    return NextResponse.json(data.items);
+
+    const response = NextResponse.json(data.items);
+    response.headers.set("Cache-Control", "public, s-maxage=86400, stale-while-revalidate=43200");
+
+    return response;
   } catch (error) {
     console.error("YouTube API error (server route):", error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });

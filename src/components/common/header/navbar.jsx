@@ -10,9 +10,10 @@ export default function Navbar() {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Ekosystem", href: "/ekosystem" },
+    { name: "Ecosystem", href: "/ecosystem" },
     { name: "News", href: "/news" },
     { name: "WeeLife", href: "/weelife" },
+    { name: "Success Stories", href: "/success-stories" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -22,7 +23,7 @@ export default function Navbar() {
         <Link
           key={item.name}
           href={item.href}
-          className={classNames("relative mx-2 cursor-pointer font-semibold py-3 px-1.5 text-background/70 uppercase text-xs lg:text-sm z-20 hover:text-background transition-all duration-200", {
+          className={classNames("relative mx-2 cursor-pointer font-semibold text-nowrap py-3 px-1.5 text-background/70 uppercase text-xs lg:text-sm z-20 hover:text-background transition-all duration-200", {
             "text-white hover:text-white": pathname === item.href,
           })}
         >

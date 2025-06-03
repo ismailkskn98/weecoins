@@ -8,9 +8,12 @@ import "swiper/css/pagination";
 import Image from "next/image";
 import ToolTip from "./toolTip";
 import OpenVideo from "./openVideo";
+import youtubeCacheVideos from "@/youtube.json";
 
 export default function YoutubeCarousel({ videos = [] }) {
-  if (!videos || videos.length === 0) return null;
+  if (!videos || videos.length === 0) {
+    videos = youtubeCacheVideos;
+  }
 
   // console.log("YoutubeCarousel", videos[1]);
 
