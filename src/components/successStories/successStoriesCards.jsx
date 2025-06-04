@@ -17,9 +17,11 @@ export default function SuccessStoriesCards({ data }) {
                 <Image src={item.image} alt={item.name} height="400" width="400" className="object-contain object-center w-min h-full" />
                 <Image src={item.image} alt={item.name} height="400" width="400" className="absolute inset-0 w-full -z-10 object-cover blur-lg h-full object-center" />
               </div>
-              <div className="w-full flex flex-col items-start gap-2 p-4 sm:p-10">
-                <p className="text-base sm:text-xl text-black dark:text-neutral-200">{item.name}</p>
-                <p className="text-sm text-neutral-600 dark:text-neutral-400">{textLimitCharecter(item.body, 80)}</p>
+              <div className="w-full flex flex-col items-start justify-between gap-3 p-4 sm:p-9 min-h-[230px]">
+                <div className="w-full flex-col items-start gap-2">
+                  <p className="text-base sm:text-xl text-black dark:text-neutral-200">{item.name}</p>
+                  <p className="text-sm text-neutral-600 dark:text-neutral-400">{textLimitCharecter(item.body, 80)}</p>
+                </div>
                 <ScrollBackSave id={item.id} />
               </div>
             </BackgroundGradient>

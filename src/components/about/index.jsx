@@ -102,10 +102,10 @@ export function TimelineDemo() {
       title: "WeeLife",
       content: (
         <div>
-          <p className="mb-4 text-xs md:text-sm font-normal text-main-white/90 leading-7">
+          <p className="mb-1 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
             WeeLife, WeeComi International tarafından Afrika'da, özellikle Tanzanya'da yaşam kalitesini artırmak amacıyla başlatılan bir yardım projesidir.
           </p>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200 leading-7">
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
             Proje, dünya çapında yardım zinciri oluşturmayı ve sosyal sorumluluk projelerini teşvik etmeyi hedefler.
           </p>
           <div className="grid grid-cols-2 gap-4">

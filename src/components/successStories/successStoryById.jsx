@@ -82,14 +82,13 @@ export default function dataById({ data }) {
             <h1 className="text-4xl md:text-5xl font-semibold text-black dark:text-white mb-2">
               {data.name} {data.surname}
             </h1>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4 pl-1">
               {new Date(data.created_at).toLocaleDateString(locale, {
                 year: "numeric",
                 month: "long",
                 day: "numeric",
               })}
             </p>
-
             <p className="text-base text-gray-800 dark:text-gray-200 leading-relaxed mb-6">{data.body}</p>
           </article>
         </BackgroundGradient>

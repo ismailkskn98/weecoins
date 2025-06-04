@@ -48,7 +48,7 @@ export default async function RootLayout({ children, params }) {
         <body className={`${inter.className} antialiased font-inter bg-main-black text-main-white !overflow-x-hidden`}>
           <NextIntlClientProvider messages={messages}>
             <Header />
-            <Toaster />
+            <Toaster richColors />
             {children}
             <Footer />
           </NextIntlClientProvider>

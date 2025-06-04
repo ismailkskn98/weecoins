@@ -11,6 +11,7 @@ export default function Header() {
   const { scrollY, scrollYProgress } = useScroll();
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [showBorder, setShowBorder] = useState(false);
   const [windowWidth, setWindowWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 0);
 
   useEffect(() => {
@@ -35,12 +36,22 @@ export default function Header() {
     setLastScrollY(current);
   });
 
+  useMotionValueEvent(scrollY, "change", (current) => {
+    if (current > 50) {
+      setShowBorder(true);
+    } else {
+      setShowBorder(false);
+    }
+  });
+
   const yOffset = showHeader ? 0 : windowWidth > 1024 ? -90 : -98;
   return (
     <motion.header
       animate={{ y: yOffset }}
       transition={{ type: "tween", duration: 0.15, ease: "easeInOut" }}
-      className={`fluid gridContainer fixed inset-x-0 z-[999] py-3 lg:py-6 overflow-hidden border-b border-white/10 bg-main-black/90 transition-all duration-300 px-2 sm:px-0`}
+      className={`fluid gridContainer fixed inset-x-0 z-[999] py-3 lg:pb-3.5 lg:pt-4 overflow-hidden ${
+        showBorder ? "border-b border-white/10" : "border-b border-transparent"
+      } bg-main-black/90 transition-all duration-300 px-2 sm:px-0`}
     >
       <HeaderRight classNames={"flex lg:hidden pb-3 pb-1"} />
       <main className="w-full mx-auto grid grid-cols-2 lg:grid-cols-3 justify-items-center gap-x-2">
