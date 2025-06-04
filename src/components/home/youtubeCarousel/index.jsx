@@ -9,6 +9,7 @@ import Image from "next/image";
 import ToolTip from "./toolTip";
 import OpenVideo from "./openVideo";
 import youtubeCacheVideos from "@/youtube.json";
+import { textLimitCharecter } from "@/utils/textLimitCharecter";
 
 export default function YoutubeCarousel({ videos = [] }) {
   if (!videos || videos.length === 0) {
@@ -16,11 +17,6 @@ export default function YoutubeCarousel({ videos = [] }) {
   }
 
   // console.log("YoutubeCarousel", videos[1]);
-
-  const textLimitCharecter = (text, maxLenght = 30) => {
-    if (text.lenght <= maxLenght) return text;
-    return text.slice(0, maxLenght) + "...";
-  };
 
   return (
     <main className="relative fluid gridContainer mt-20 sm:mt-28 lg:mt-36 mb-20 sm:mb-24 overflow-hidden">
