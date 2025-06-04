@@ -1,5 +1,14 @@
 {
   "hello": "eng Hello",
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "ecosystem": "Ecosystem",
+    "news": "News",
+    "weelife": "Weelife",
+    "successStories": "Success Stories",
+    "contact": "Contact"
+  },
   "ContactPage": {
     "title": "Contact",
     "subtitle": "Contact us, we'd love to meet you.",

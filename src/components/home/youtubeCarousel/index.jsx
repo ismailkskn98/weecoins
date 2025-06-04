@@ -45,7 +45,7 @@ export default function YoutubeCarousel({ videos = [] }) {
           delay: 6000,
           disableOnInteraction: false,
         }}
-        className="w-full max-w-full xl:max-w-10/12 h-[150px] sm:h-[200px] md:h-[240px] !pb-7"
+        className="w-full max-w-full xl:max-w-10/12 h-[200px] md:h-[240px] !pb-7"
       >
         {videos.map((item, i) => (
           <SwiperSlide key={i} className="bg-main-black rounded-sm h-full relative group cursor-pointer overflow-hidden">

@@ -24,7 +24,7 @@ export default function Slide1Swiper() {
     return <div className="w-full h-[150px] lg:h-[570px]" />;
   }
 
-  const swiperClass = `w-full ${windowWidth > 1024 ? "lg:w-[150px] h-[570px]" : "h-[150px]"}`;
+  const swiperClass = `w-full ${windowWidth > 1024 ? "lg:w-[120px] h-[570px]" : "h-[120px]"}`;
 
   return (
     <main className={`relative z-10 w-full`}>

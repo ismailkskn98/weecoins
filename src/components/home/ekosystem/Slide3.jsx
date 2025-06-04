@@ -17,7 +17,7 @@ export default function Slide3({ classNames, index }) {
       <span className="inline-block bg-main-black absolute left-1/2 -bottom-1.5 -translate-x-1/2 w-1/6 h-3 rounded-2xl"></span>
       <div className="w-full h-full max-w-full lg:max-w-[50%] flex flex-col items-start gap-2 justify-between p-5 md:p-9 text-main-white">
         <div className="w-full flex flex-col items-start gap-2">
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-4">WeeZard</h2>
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-1 lg:mb-4">WeeZard</h2>
           <p className="text-[clamp(12px,1.05vw,17px)] text-main-white/70 tracking-wide">
             WeeZard ile eğlenceyi kazanca dönüştür! Jackpot, kazı kazan gibi oyunlarla vakit geçirirken WCP kazanırsın. Kazandığın WCP'leri çeşitli avantajlar için kullanabilir, daha fazlasını keşfettikçe keyfini
             katlayabilirsin. Her oyunda şansını dene, her kazançta heyecanı ikiye katla!
@@ -39,8 +39,8 @@ export default function Slide3({ classNames, index }) {
         </div>
         <div className="md:block hidden mt-6 text-2xl font-semibold tracking-widest text-main-white [font-feature-settings:'zero'] p-2 rounded-xl bg-main-black">03</div>
       </div>
-      <div className="relative flex-1 w-full h-full min-h-[50%] lg:min-h-auto rounded-xl overflow-hidden lg:pt-12">
-        <Image src={"/images/weezard-card.webp"} alt="weezard" width={400} height={800} className="absolute z-10 left-1/2 -translate-x-1/2 top-4 lg:top-12 object-contain object-center" />
+      <div className="relative flex-1 w-full h-full min-h-[40%] lg:min-h-auto rounded-xl overflow-hidden lg:pt-12">
+        <Image src={"/images/weezard-card.webp"} alt="weezard" width={400} height={800} className="absolute z-10 left-1/2 -translate-x-1/2 -top-1 lg:top-12 max-h-[500px] lg:max-h-max object-contain object-center" />
         <DotBackgroundDemo />
       </div>
     </article>

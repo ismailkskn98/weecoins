@@ -14,12 +14,13 @@ export default function Slide4({ classNames, index }) {
       <span className="inline-block bg-main-black absolute -right-1.5 top-1/2 -translate-y-1/2 w-3 h-1/6 rounded-2xl"></span>
       <span className="inline-block bg-main-black absolute left-1/2 -top-1.5 -translate-x-1/2 w-1/6 h-3 rounded-2xl"></span>
       <span className="inline-block bg-main-black absolute left-1/2 -bottom-1.5 -translate-x-1/2 w-1/6 h-3 rounded-2xl"></span>
-      <div className="order-2 lg:order-1 relative flex-1 w-full h-full min-h-[50%] lg:min-h-auto rounded-xl overflow-hidden p-2">
-        <Image src={"/images/weekobi-card.webp"} alt="weezard" width={1100} height={1100} className="relative z-10 object-cover object-left w-full h-full rounded-xl" />
+      <div className="order-2 lg:order-1 relative flex-1 w-full h-full min-h-[40%] lg:min-h-auto rounded-xl overflow-hidden p-2">
+        <Image src={"/images/weekobi-card.webp"} alt="weezard" width={1100} height={1100} className="lg:inline-block hidden relative z-10 object-cover object-top lg:object-left w-full h-full rounded-xl" />
+        <Image src={"/images/weekobi-card.webp"} alt="weezard" width={450} height={250} className="lg:hidden inline-block relative z-10 object-cover object-top lg:object-left w-full h-full rounded-xl" />
       </div>
-      <div className="order-1 lg:order-2 w-full h-full max-w-full lg:max-w-[50%] flex flex-col items-start justify-between gap-2 p-5 md:p-9 text-text-black">
+      <div className="order-1 lg:order-2 w-full h-full max-w-full lg:max-w-[50%] flex flex-col items-start justify-between gap-2 p-4 md:p-9 text-text-black">
         <div className="w-full flex flex-col items-start gap-2">
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-4">WeeKobi</h2>
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-1 lg:mb-4">WeeKobi</h2>
           <p className="text-[clamp(12px,1.05vw,17px)] text-text-black/70 tracking-wide">
             Weekobi'ye kaydol, satış yaptıkça hem sen hem müşterilerin WCP kazansın. Satışa dayalı reklam modeliyle görünürlüğün artar, kazancın büyür. Kazandığın WCP'yi sistemde tekrar kullan ya da değerlendir.
             Üstelik işletmen, WeeKobi kullanıcıları arasında öncelikli görünürlük kazanır. Müşterilerin seni kolayca keşfederek güvenle alışveriş yapar.

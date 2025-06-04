@@ -1,5 +1,14 @@
 {
   "hello": "Rusça Merhaba",
+  "Navbar": {
+    "home": "Главная",
+    "about": "О нас",
+    "ecosystem": "Экосистема",
+    "news": "Новости",
+    "weelife": "Weelife",
+    "successStories": "Истории успеха",
+    "contact": "Контакты"
+  },
   "ContactPage": {
     "title": "Контакты",
     "subtitle": "Свяжитесь с нами, мы будем рады познакомиться с вами.",

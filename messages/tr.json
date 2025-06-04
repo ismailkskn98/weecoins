@@ -1,5 +1,14 @@
 {
   "hello": "Türkçe Merhaba",
+  "Navbar": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "ecosystem": "Ekosistem",
+    "news": "Haberler",
+    "weelife": "Weelife",
+    "successStories": "Başarı Hikayeleri",
+    "contact": "İletişim"
+  },
   "ContactPage": {
     "title": "İletişim",
     "subtitle": "Bize ulaşın, sizinle tanışmak isteriz.",

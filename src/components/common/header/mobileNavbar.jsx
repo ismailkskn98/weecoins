@@ -6,19 +6,21 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 import { Link, usePathname } from "@/i18n/navgation";
 import classNames from "classnames";
 import { motion } from "motion/react";
+import { useTranslations } from "next-intl";
 
 export default function MobileNavbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const t = useTranslations("Navbar");
 
   const navItems = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Ecosystem", href: "/ecosystem" },
-    { name: "News", href: "/news" },
-    { name: "WeeLife", href: "/weelife" },
-    { name: "Success Stories", href: "/success-stories" },
-    { name: "Contact", href: "/contact" },
+    { name: t("home"), href: "/" },
+    { name: t("about"), href: "/about" },
+    { name: t("ecosystem"), href: "/ecosystem" },
+    { name: t("news"), href: "/news" },
+    { name: t("weelife"), href: "/weelife" },
+    { name: t("successStories"), href: "/success-stories" },
+    { name: t("contact"), href: "/contact" },
   ];
 
   return (

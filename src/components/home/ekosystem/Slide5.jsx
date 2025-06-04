@@ -17,7 +17,7 @@ export default function Slide5({ classNames, index }) {
       <span className="inline-block bg-main-black absolute left-1/2 -bottom-1.5 -translate-x-1/2 w-1/6 h-3"></span>
       <div className="w-full h-full max-w-full lg:max-w-[50%] flex flex-col items-start justify-between gap-2 p-5 md:p-9 text-main-white">
         <div className="w-full flex flex-col items-start gap-2">
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-4">WeeCard</h2>
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-1 lg:mb-4">WeeCard</h2>
           <p className="text-[clamp(12px,1.05vw,17px)] text-main-white/70 tracking-wide">
             WeeCard ile tüm iletişim bilgilerini dijitalleştir, QR kodla anında paylaş! Gelişmiş arayüzü sayesinde sosyal medya, ürünler, kataloglar ve iletişim kanallarını tek bir yerde topla. Her şey profesyonel,
             hızlı ve etkileyici.

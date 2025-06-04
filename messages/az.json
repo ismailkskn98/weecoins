@@ -1,5 +1,14 @@
 {
   "hello": "Azeri Merhaba",
+  "Navbar": {
+    "home": "Əsas Səhifə",
+    "about": "Haqqımızda",
+    "ecosystem": "Ekosistem",
+    "news": "Xəbərlər",
+    "weelife": "Weelife",
+    "successStories": "Uğur Hekayələri",
+    "contact": "Əlaqə"
+  },
   "ContactPage": {
     "title": "Əlaqə",
     "subtitle": "Bizimlə əlaqə saxlayın, sizi tanımaq istərdik.",
