@@ -9,6 +9,55 @@
     "successStories": "Başarı Hikayeleri",
     "contact": "İletişim"
   },
+  "HomePage": {
+    "hero": {
+      "h1": "Dijital Geleceğin Anahtarı: Weecoins",
+      "subtitle": "Weecoins ile kripto varlıklarınızı yönetin, kazanç fırsatlarını değerlendirin ve dijital ekonomide yerinizi alın.",
+      "ecosystem": "Ekosistem"
+    },
+    "videoContainer": {
+      "h2": "WeeCoins sunum videosu",
+      "subtitle": "WeeCoins hakkında daha fazla bilgi edinmek ve finans dünyasının geleceğini keşfetmek için bu videoyu izleyin."
+    },
+    "services": {
+      "card1": {
+        "title": "KOBİ'lerle Güçlü Bağlantılar",
+        "content": "5600'den fazla küçük ve orta ölçekli işletme, dijital dönüşüm yolculuğunda bizimle ilerliyor. Güvenilir ve ölçeklenebilir çözümler sunuyoruz."
+      },
+      "card2": {
+        "title": "Genişleyen Müşteri Ekosistemi",
+        "content": "12000'i aşkın memnun müşterimizle, iş süreçlerini kolaylaştıran ve verimliliği artıran çözümler sunmaya devam ediyoruz."
+      },
+      "card3": {
+        "title": "Küresel Hizmet Ağı",
+        "content": "9 farklı ülkede aktif olarak hizmet veriyoruz. Dijital sınırları aşan çözümlerimizle dünya genelinde etki yaratıyoruz."
+      },
+      "card4": {
+        "title": "Stratejik İş Ortaklıkları",
+        "content": "24 güçlü iş ortağıyla birlikte inovasyonu destekleyen bir ekosistem inşa ediyoruz. Birlikte daha fazlasını başarıyoruz."
+      }
+    },
+    "ecosystem": {
+      "h2": "WeeCoins Ekosistemi İle Tanışın",
+      "subtitle": "WeeCoins ekosistemi, iş süreçlerinizi sadeleştirir, gelirlerinizi artırır ve kullanıcılarınıza benzersiz deneyimler sunar.",
+      "slide1": {
+        "subtitle": "WeeCoins International, değerli iş ortaklarımıza kendi sosyal ticaret işlerini kurmaları için en iyi fırsatları sunar. WeeCoins, güçlü ve güvenli altyapısı ile kullanıcılarına benzersiz bir deneyim yaşatırken, aynı zamanda kripto para birimlerinin geleceğine dair güvenilir ve yenilikçi çözümler sunar."
+      },
+      "slide2": {
+        "title": "WeeGold Network Nedir?",
+        "subtitle": "WeeGold ağı, WeeComi International tarafından işletilen, kripto para dünyasında geniş kullanım alanlarına sahip bir ağdır. 2020 yılında piyasaya sürülen WeeCoins Premium (WCP) ve WeeCoins (WCS) kripto paralarını destekler ve çeşitli uluslararası platformlarda aktif olarak işlem görür."
+      },
+      "slide3": {
+        "subtitle": "WeeZard ile eğlenceyi kazanca dönüştür! Jackpot, kazı kazan gibi oyunlarla vakit geçirirken WCP kazanırsın. Kazandığın WCP'leri çeşitli avantajlar için kullanabilir, daha fazlasını keşfettikçe keyfini katlayabilirsin. Her oyunda şansını dene, her kazançta heyecanı ikiye katla!"
+      },
+      "slide4": {
+        "subtitle": "Weekobi'ye kaydol, satış yaptıkça hem sen hem müşterilerin WCP kazansın. Satışa dayalı reklam modeliyle görünürlüğün artar, kazancın büyür. Kazandığın WCP'yi sistemde tekrar kullan ya da değerlendir. Üstelik işletmen, WeeKobi kullanıcıları arasında öncelikli görünürlük kazanır. Müşterilerin seni kolayca keşfederek güvenle alışveriş yapar."
+      },
+      "slide5": {
+        "subtitle": "WeeCard ile tüm iletişim bilgilerini dijitalleştir, QR kodla anında paylaş! Gelişmiş arayüzü sayesinde sosyal medya, ürünler, kataloglar ve iletişim kanallarını tek bir yerde topla. Her şey profesyonel, hızlı ve etkileyici."
+      }
+    }
+  },
   "ContactPage": {
     "title": "İletişim",
     "subtitle": "Bize ulaşın, sizinle tanışmak isteriz.",

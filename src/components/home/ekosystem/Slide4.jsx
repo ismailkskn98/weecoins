@@ -1,8 +1,10 @@
 import { Link } from "@/i18n/navgation";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Slide4({ classNames, index }) {
+  const t = useTranslations("HomePage.ecosystem");
   return (
     <article
       className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex flex-col lg:flex-row items-start justify-center gap-4 md:gap-8 bg-logo-button p-3 overflow-hidden ${classNames}`}
@@ -21,10 +23,7 @@ export default function Slide4({ classNames, index }) {
       <div className="order-1 lg:order-2 w-full h-full max-w-full lg:max-w-[50%] flex flex-col items-start justify-between gap-2 p-4 md:p-9 text-text-black">
         <div className="w-full flex flex-col items-start gap-2">
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-1 lg:mb-4">WeeKobi</h2>
-          <p className="text-[clamp(12px,1.05vw,17px)] text-text-black/70 tracking-wide">
-            Weekobi'ye kaydol, satış yaptıkça hem sen hem müşterilerin WCP kazansın. Satışa dayalı reklam modeliyle görünürlüğün artar, kazancın büyür. Kazandığın WCP'yi sistemde tekrar kullan ya da değerlendir.
-            Üstelik işletmen, WeeKobi kullanıcıları arasında öncelikli görünürlük kazanır. Müşterilerin seni kolayca keşfederek güvenle alışveriş yapar.
-          </p>
+          <p className="text-[clamp(12px,1.05vw,17px)] text-text-black/70 tracking-wide">{t("slide4.subtitle")}</p>
           <div className="flex items-center gap-4 mt-3">
             <Link
               href="https://kobi.weecomi.com/"

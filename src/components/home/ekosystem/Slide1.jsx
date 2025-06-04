@@ -3,8 +3,10 @@ import Image from "next/image";
 import { HiShieldCheck } from "react-icons/hi";
 import { MdTrendingUp } from "react-icons/md";
 import Slide1Swiper from "./Slide1Swiper";
+import { useTranslations } from "next-intl";
 
 export default function Slide1({ classNames, index }) {
+  const t = useTranslations("HomePage.ecosystem");
   return (
     <article
       className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex flex-col lg:flex-row items-start justify-center gap-4 md:gap-8 bg-zinc-900 p-3 overflow-hidden ${classNames}`}
@@ -19,10 +21,7 @@ export default function Slide1({ classNames, index }) {
       <div className="w-full h-full max-w-full lg:max-w-[50%] flex flex-row lg:flex-col items-start justify-between gap-16 lg:gap-2 p-5 md:p-9 text-main-white">
         <div className="w-full flex flex-col items-start gap-2">
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-1 lg:mb-4">WeeCoins</h2>
-          <p className="text-[clamp(12px,1.05vw,17px)] text-main-white/70 tracking-wide">
-            WeeCoins International, değerli iş ortaklarımıza kendi sosyal ticaret işlerini kurmaları için en iyi fırsatları sunar. WeeCoins, güçlü ve güvenli altyapısı ile kullanıcılarına benzersiz bir deneyim
-            yaşatırken, aynı zamanda kripto para birimlerinin geleceğine dair güvenilir ve yenilikçi çözümler sunar.
-          </p>
+          <p className="text-[clamp(12px,1.05vw,17px)] text-main-white/70 tracking-wide">{t("slide1.subtitle")}</p>
           <div className="flex items-center gap-4 mt-6">
             <span className="p-3 rounded-xl bg-main-black text-main-white text-2xl tracking-widest font-semibold [font-feature-settings:'zero']">
               <Image src={"/images/weecoins-logo-white.png"} alt="WeeCoins" width={40} height={40} className="object-center max-w-[24px] object-contain" />

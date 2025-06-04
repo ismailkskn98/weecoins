@@ -9,6 +9,55 @@
     "successStories": "Uğur Hekayələri",
     "contact": "Əlaqə"
   },
+  "HomePage": {
+    "hero": {
+      "h1": "Rəqəmsal Gələcəyin Açarı: Weecoins",
+      "subtitle": "Weecoins ilə kripto aktivlərinizi idarə edin, qazanc imkanlarından yararlanın və rəqəmsal iqtisadiyyatda yerinizi alın.",
+      "ecosystem": "Ekosistem"
+    },
+    "videoContainer": {
+      "h2": "WeeCoins təqdimat videosu",
+      "subtitle": "WeeCoins haqqında daha çox öyrənmək və maliyyə dünyasının gələcəyini kəşf etmək üçün bu videoya baxın."
+    },
+    "services": {
+      "card1": {
+        "title": "KOBİ-lərlə Güclü Əlaqələr",
+        "content": "5600-dən çox kiçik və orta sahibkarlıq subyekti rəqəmsal transformasiya yolunda bizimlə irəliləyir. Etibarlı və genişlənə bilən həllər təqdim edirik."
+      },
+      "card2": {
+        "title": "Genişlənən Müştəri Ekosistemi",
+        "content": "12000-dən çox məmnun müştərimizlə, biznes proseslərini sadələşdirən və məhsuldarlığı artıran həllər təqdim etməyə davam edirik."
+      },
+      "card3": {
+        "title": "Qlobal Xidmət Şəbəkəsi",
+        "content": "9 fərqli ölkədə aktiv xidmət göstəririk. Rəqəmsal sərhədləri aşan həllərimizlə dünyada təsir yaradırıq."
+      },
+      "card4": {
+        "title": "Strateji Biznes Tərəfdaşlıqları",
+        "content": "24 güclü biznes tərəfdaşımızla birlikdə innovasiyanı dəstəkləyən bir ekosistem qururuq. Birlikdə daha çox şeyə nail oluruq."
+      }
+    },
+    "ecosystem": {
+      "h2": "WeeCoins Ekosistemi ilə Tanış Olun",
+      "subtitle": "WeeCoins ekosistemi iş proseslərinizi sadələşdirir, gəlirlərinizi artırır və istifadəçilərinizə unikal təcrübələr təqdim edir.",
+      "slide1": {
+        "subtitle": "WeeCoins International dəyərli iş ortaqlarımıza öz sosial ticarət bizneslərini qurmaq üçün ən yaxşı imkanları təqdim edir. Güclü və etibarlı infrastrukturu ilə WeeCoins istifadəçilərə bənzərsiz təcrübə yaşadır və kriptovalyutaların gələcəyinə dair etibarlı və innovativ həllər təqdim edir."
+      },
+      "slide2": {
+        "title": "WeeGold Şəbəkəsi Nədir?",
+        "subtitle": "WeeGold şəbəkəsi WeeComi International tərəfindən idarə olunan və kriptovalyuta dünyasında geniş istifadə sahələrinə malik bir şəbəkədir. 2020-ci ildə istifadəyə verilmiş WeeCoins Premium (WCP) və WeeCoins (WCS) kriptovalyutalarını dəstəkləyir və müxtəlif beynəlxalq platformalarda aktiv şəkildə ticarət olunur."
+      },
+      "slide3": {
+        "subtitle": "WeeZard ilə əyləncəni qazanca çevir! Jackpot, qazan-qazan kimi oyunlarla əylənərkən WCP qazan. Qazandığın WCP-ləri müxtəlif üstünlüklər üçün istifadə et və daha çox kəşf etdikcə zövqünü artır. Hər oyunda şansını yoxla, hər qazancda həyəcanını ikiqat artır!"
+      },
+      "slide4": {
+        "subtitle": "Weekobi-yə qeydiyyatdan keç, satış etdikcə həm sən, həm də müştərilərin WCP qazan! Satış əsaslı reklam modeli ilə görünürlüğün artır, gəlirin böyüyür. Qazandığın WCP-ni sistemdə istifadə et və ya dəyərləndir. Üstəlik, biznesin WeeKobi istifadəçiləri arasında öncül görünürlük qazanır və müştərilər səni asanlıqla taparaq etibarla alış-veriş edirlər."
+      },
+      "slide5": {
+        "subtitle": "WeeCard ilə bütün əlaqə məlumatlarını rəqəmsallaşdır və QR kod ilə dərhal paylaş! Təkmilləşdirilmiş interfeysi vasitəsilə sosial media, məhsullar, kataloqlar və əlaqə kanallarını bir araya topla. Hər şey peşəkar, sürətli və təsir edicidir."
+      }
+    }
+  },
   "ContactPage": {
     "title": "Əlaqə",
     "subtitle": "Bizimlə əlaqə saxlayın, sizi tanımaq istərdik.",

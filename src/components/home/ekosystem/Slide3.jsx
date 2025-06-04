@@ -1,9 +1,11 @@
 import { DotBackgroundDemo } from "@/components/ui/dot-background";
 import { Link } from "@/i18n/navgation";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Slide3({ classNames, index }) {
+  const t = useTranslations("HomePage.ecosystem");
   return (
     <article
       className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex flex-col lg:flex-row items-start justify-center gap-4 md:gap-8 bg-zinc-900 p-3 overflow-hidden ${classNames}`}
@@ -18,10 +20,7 @@ export default function Slide3({ classNames, index }) {
       <div className="w-full h-full max-w-full lg:max-w-[50%] flex flex-col items-start gap-2 justify-between p-5 md:p-9 text-main-white">
         <div className="w-full flex flex-col items-start gap-2">
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-1 lg:mb-4">WeeZard</h2>
-          <p className="text-[clamp(12px,1.05vw,17px)] text-main-white/70 tracking-wide">
-            WeeZard ile eğlenceyi kazanca dönüştür! Jackpot, kazı kazan gibi oyunlarla vakit geçirirken WCP kazanırsın. Kazandığın WCP'leri çeşitli avantajlar için kullanabilir, daha fazlasını keşfettikçe keyfini
-            katlayabilirsin. Her oyunda şansını dene, her kazançta heyecanı ikiye katla!
-          </p>
+          <p className="text-[clamp(12px,1.05vw,17px)] text-main-white/70 tracking-wide">{t("slide3.subtitle")}</p>
           <div className="flex items-center gap-4 mt-3">
             <Link
               href="https://weezard.org"

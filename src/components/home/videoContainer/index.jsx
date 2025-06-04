@@ -1,9 +1,10 @@
 import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import React from "react";
 
 export default function VideoContainer() {
   const locale = useLocale();
+  const t = useTranslations("HomePage.videoContainer");
 
   const videoLanguage = () => {
     switch (locale) {
@@ -29,8 +30,8 @@ export default function VideoContainer() {
         <main className="w-full flex flex-col items-center justify-center gap-10 sm:gap-16">
           <article className="w-full flex items-center justify-center px-3">
             <div className="flex flex-col items-center justify-center gap-3 max-w-3xl text-center">
-              <h2 className="w-full capitalize text-main-black text-3xl sm:text-4xl lg:text-5xl 3xl:text-6xl font-medium sm:font-semibold">WeeCoins sunum videosu</h2>
-              <p className="w-full text-sm sm:text-base lg:text-lg text-main-black/80 font-medium">WeeCoins hakkında daha fazla bilgi edinmek ve finans dünyasının geleceğini keşfetmek için bu videoyu izleyin.</p>
+              <h2 className="w-full capitalize text-main-black text-3xl sm:text-4xl lg:text-5xl 3xl:text-6xl font-medium sm:font-semibold">{t("h2")}</h2>
+              <p className="w-full text-sm sm:text-base lg:text-lg text-main-black/80 font-medium">{t("subtitle")}</p>
             </div>
           </article>
           <article className="relative w-full max-w-[95%] sm:max-w-3xl lg:max-w-4xl 2xl:max-w-5xl mx-auto">

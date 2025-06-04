@@ -5,6 +5,7 @@ import ServiceCards from "@/components/home/services";
 import VideoContainer from "@/components/home/videoContainer";
 import WeeLife from "@/components/home/weelife";
 import YoutubeCarousel from "@/components/home/youtubeCarousel";
+import { getTranslations } from "next-intl/server";
 
 const getYoutubeVideos = async () => {
   try {
@@ -27,26 +28,27 @@ const getYoutubeVideos = async () => {
 
 export default async function Home() {
   const videos = await getYoutubeVideos();
+  const t = await getTranslations("HomePage.services");
 
   const cardsItem = [
     {
-      title: "KOBİ'lerle Güçlü Bağlantılar",
-      description: "5600'den fazla küçük ve orta ölçekli işletme, dijital dönüşüm yolculuğunda bizimle ilerliyor. Güvenilir ve ölçeklenebilir çözümler sunuyoruz.",
+      title: t("card1.title"),
+      description: t("card1.content"),
       count: "5600",
     },
     {
-      title: "Genişleyen Müşteri Ekosistemi",
-      description: "12000'i aşkın memnun müşterimizle, iş süreçlerini kolaylaştıran ve verimliliği artıran çözümler sunmaya devam ediyoruz.",
+      title: t("card2.title"),
+      description: t("card2.content"),
       count: "12000",
     },
     {
-      title: "Küresel Hizmet Ağı",
-      description: "9 farklı ülkede aktif olarak hizmet veriyoruz. Dijital sınırları aşan çözümlerimizle dünya genelinde etki yaratıyoruz.",
+      title: t("card3.title"),
+      description: t("card3.content"),
       count: "9",
     },
     {
-      title: "Stratejik İş Ortaklıkları",
-      description: "24 güçlü iş ortağıyla birlikte inovasyonu destekleyen bir ekosistem inşa ediyoruz. Birlikte daha fazlasını başarıyoruz.",
+      title: t("card4.title"),
+      description: t("card4.content"),
       count: "24",
     },
   ];

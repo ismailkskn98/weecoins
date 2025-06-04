@@ -9,6 +9,55 @@
     "successStories": "Success Stories",
     "contact": "Contact"
   },
+  "HomePage": {
+    "hero": {
+      "h1": "Key to the Digital Future: Weecoins",
+      "subtitle": "Manage your crypto assets with Weecoins, seize earning opportunities, and claim your place in the digital economy.",
+      "ecosystem": "Ecosystem"
+    },
+    "videoContainer": {
+      "h2": "WeeCoins presentation video",
+      "subtitle": "Watch this video to learn more about WeeCoins and discover the future of the financial world."
+    },
+    "services": {
+      "card1": {
+        "title": "Strong Connections with SMEs",
+        "content": "Over 5,600 small and medium-sized enterprises are advancing with us on the path of digital transformation. We offer reliable and scalable solutions."
+      },
+      "card2": {
+        "title": "Expanding Customer Ecosystem",
+        "content": "With more than 12,000 satisfied customers, we continue to provide solutions that simplify business processes and enhance efficiency."
+      },
+      "card3": {
+        "title": "Global Service Network",
+        "content": "We operate actively in 9 countries. With our solutions that transcend digital boundaries, we create impact worldwide."
+      },
+      "card4": {
+        "title": "Strategic Business Partnerships",
+        "content": "Together with 24 strong business partners, we are building an ecosystem that fosters innovation. Together, we achieve more."
+      }
+    },
+    "ecosystem": {
+      "h2": "Discover the WeeCoins Ecosystem",
+      "subtitle": "The WeeCoins ecosystem simplifies your business processes, increases your revenue, and offers unique experiences to your users.",
+      "slide1": {
+        "subtitle": "WeeCoins International offers our valued business partners the best opportunities to establish their own social commerce ventures. With its strong and secure infrastructure, WeeCoins provides users with a unique experience while offering reliable and innovative solutions for the future of cryptocurrencies."
+      },
+      "slide2": {
+        "title": "What is the WeeGold Network?",
+        "subtitle": "The WeeGold network is operated by WeeComi International and has a wide range of uses in the crypto world. It supports the cryptocurrencies WeeCoins Premium (WCP) and WeeCoins (WCS), which were launched in 2020 and are actively traded on various international platforms."
+      },
+      "slide3": {
+        "subtitle": "Turn fun into earnings with WeeZard! While enjoying games like jackpot and scratch cards, earn WCP. Use your WCP for various benefits and increase your excitement as you discover more. Try your luck in every game, double the thrill with every win!"
+      },
+      "slide4": {
+        "subtitle": "Register on Weekobi and earn WCP as you sell – both you and your customers benefit. With a sales-based advertising model, your visibility increases and your earnings grow. Reuse your WCP in the system or convert it. Plus, your business gains priority visibility among WeeKobi users, making it easier for customers to find and shop with confidence."
+      },
+      "slide5": {
+        "subtitle": "Digitize all your contact information with WeeCard and share it instantly via QR code! Gather your social media, products, catalogs, and communication channels all in one place through its advanced interface. Everything is professional, fast, and impressive."
+      }
+    }
+  },
   "ContactPage": {
     "title": "Contact",
     "subtitle": "Contact us, we'd love to meet you.",
