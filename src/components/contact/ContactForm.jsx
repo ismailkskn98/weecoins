@@ -68,9 +68,8 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className={`relative group overflow-hidden flex items-center gap-1 px-3 py-2 text-sm xl:text-base rounded-sm w-min text-nowrap self-center cursor-pointer ${
-              isSubmitting ? "cursor-not-allowed bg-gray-400 text-gray-700" : "bg-[#FDC739] text-text-black"
-            }`}
+            className={`relative group overflow-hidden flex items-center gap-1 px-3 py-2 text-sm xl:text-base rounded-sm w-min text-nowrap self-center cursor-pointer ${isSubmitting ? "cursor-not-allowed bg-gray-400 text-gray-700" : "bg-[#FDC739] text-text-black"
+              }`}
           >
             <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-12 group-hover:-translate-y-1/2 transition-all duration-300 pointer-events-none">{t("form.button")}</span>
 
@@ -80,7 +79,6 @@ export default function ContactForm() {
             <span className="inline-block bg-main-black absolute left-1/2 bottom-[-1.5px] -translate-x-1/2 w-4 h-[3px] rounded-2xl"></span>
 
             <span className="translate-y-0 group-hover:translate-y-12 transition-all duration-300 relative z-20 inline-block transform capitalize">{isSubmitting ? t("form.isSummitting") : t("form.button")}</span>
-            <BsSendFill className="translate-y-0 group-hover:translate-y-12 transition-all duration-300 relative z-20 inline-block transform" />
           </button>
         </Form>
       )}
