@@ -9,6 +9,15 @@
     "successStories": "Uğur Hekayələri",
     "contact": "Əlaqə"
   },
+  "Footer": {
+    "writeToUs": "Bizə Yazın",
+    "contactSubtitle": "Texniki dəstək tələblərinizi, suallarınızı və təkliflərinizi diqqətlə izləyir və həyata keçiririk.",
+    "sendEmail": "E-poçt göndər",
+    "quickLinks": "Sürətli Keçidlər",
+    "services": "Xidmətlərimiz",
+    "socialMedia": "Sosial Media",
+    "copyright": "WeeCoins. Bütün hüquqlar qorunur."
+  },
   "HomePage": {
     "hero": {
       "h1": "Rəqəmsal Gələcəyin Açarı: Weecoins",
@@ -56,7 +65,153 @@
       "slide5": {
         "subtitle": "WeeCard ilə bütün əlaqə məlumatlarını rəqəmsallaşdır və QR kod ilə dərhal paylaş! Təkmilləşdirilmiş interfeysi vasitəsilə sosial media, məhsullar, kataloqlar və əlaqə kanallarını bir araya topla. Hər şey peşəkar, sürətli və təsir edicidir."
       }
+    },
+    "weelife": {
+      "h2": "Birlikdə Daha Güclüyük",
+      "subtitle": "Kurban bağışınızı WeeCoins vasitəsilə Burkina Fasodakı qardaş-bacılarımıza çatdırır, birlikdə ümid və sevinc paylayırıq.",
+      "card1": {
+        "title": "Bir qurbanlıq, sonsuz minnətdarlıq!",
+        "content": "Məsuliyyətli bir qurum olaraq, Qurban Bayramında Burkina Fasodakı insanlara yardım əlimizi uzadırıq. Bayram sevincini yerli insanlarla paylaşır, bağışladığınız qurbanları ehtiyacı olanlara çatdırırıq. Paylaşmağın verdiyi huzuru birlikdə yaşamaq üçün siz də bizə qoşulun."
+      },
+      "card2": {
+        "title": "Bayramda WeeCoins Onların Yanındadır",
+        "content": "WeeCoins ailəsi olaraq bu bayramda da Burkina Fasodayıq. Qurbanlar kəsir, yerli insanlarla bölüşür və uşaqlara unudulmaz bir bayram bəxş edirik. Bayramlar ən çox uşaqlara yaraşır; onların bir gülüşü min təşəkkürə dəyər. Birlikdə ümid oluruq, birlikdə güclənirik."
+      },
+      "card3": {
+        "title": "Bir Bağış, Bir Gülümsəmə",
+        "content": "Qurban bağışlayaraq bu böyük dəyişikliyin bir parçası ola bilərsiniz. Bağışlarınızla yalnız ət deyil, ümid və xoşbəxtlik də paylaşırıq. Hər bir qurban bir uşağın həyatında unudulmaz bayram xatirəsi deməkdir. Gəlin, birlikdə daha çox üz güldürək."
+      },
+      "card4": {
+        "title": "Ümidi Paylaş, Gələcəyi İşıqlandır",
+        "content": "Bu bayramda siz də Burkina Fasodakı qardaşlarımızın həyatına toxuna bilərsiniz. Qurban bağışlarınızla yalnız ibadətinizi yerinə yetirməyəcək, həm də bir toplumun gələcəyinə ümid işığı olacaqsınız. Daha mənalı bir bayram üçün bizə qoşulun."
+      }
     }
+  },
+  "AboutPage": {
+    "h1": "Weecoins Haqqında",
+    "subtitle": "Weecoins, Weegold şəbəkəsi üzərində fəaliyyət göstərən çox yönlü və güclü bir kripto aktivdir. Alış-verişdən ağıllı müqavilələrə, staking-dən süni intellekt dəstəkli tətbiqlərə qədər geniş istifadə sahəsi ilə yalnız bir sərmayə vasitəsi deyil, eyni zamanda rəqəmsal iqtisadiyyatın mərkəzində yer alan bir ekosistem komponentidir.",
+    "weegold": {
+      "title": "WeeGold Şəbəkəsi Nədir?",
+      "content": "WeeGold şəbəkəsi, WeeComi International tərəfindən idarə olunan və kriptovalyuta dünyasında geniş istifadəyə sahib bir şəbəkədir. 2020-ci ildə istifadəyə verilmiş WeeCoins Premium (WCP) və WeeCoins (WCS) kriptovalyutalarını dəstəkləyir və müxtəlif beynəlxalq platformalarda aktiv şəkildə ticarət olunur."
+    },
+    "blockchain": {
+      "title": "Blockchain Nədir?",
+      "content": "Blockchain — məlumatların təhlükəsiz və şəffaf şəkildə saxlanmasını təmin edən paylanmış bir qeyd dəftəri texnologiyasıdır. Hər bir məlumat bir zəncirin blokudur və bu bloklar kriptoqrafik olaraq bir-biri ilə bağlıdır.",
+      "content2": "Bu texnologiya əsasən kriptovalyutalarda istifadə olunur, lakin maliyyə, təchizat zənciri, rəqəmsal şəxsiyyət və digər sahələrdə də tətbiq olunur. Blockchain-in mərkəzləşdirilməmiş quruluşu vasitəçiləri aradan qaldıraraq xərcləri azaldır və əməliyyatları sürətləndirir."
+    },
+    "weecomi": {
+      "content": "2013-cü ildə qurulan WeeComi International, süni intellekt əsaslı kriptovalyuta birjalarında layihələr həyata keçirən proqram təminatı şirkətidir. Dünyanın 10 ölkəsində investorları, 40-a yaxın iş ortağı ilə qlobal bir brendə çevrilmişdir."
+    },
+    "weelife": {
+      "content": "WeeLife, WeeComi International tərəfindən Afrikada, xüsusilə Tanzaniyada həyat keyfiyyətini artırmaq məqsədilə başladılmış bir yardım layihəsidir.",
+      "content2": "Layihə, dünya üzrə yardım şəbəkəsi qurmağı və sosial məsuliyyət layihələrini təşviq etməyi hədəfləyir."
+    }
+  },
+  "EcosystemPage": {
+    "h1": "WeeCoins Ekosistemi",
+    "subtitle": "WeeEkosistem — rəqəmsal şəxsiyyətdən sosial ticarətə, əyləncəli oyunlardan ikinci əl bazarına qədər müxtəlif həlləri birləşdirən, WCP dəstəkləyən kompleks bir rəqəmsal platformadır. WeeCard ilə əlaqəni rəqəmsallaşdır, WeeZard ilə oyun oynayaraq qazan, WeeKobi ilə biznesini böyüt, WeeSale ilə məhsullarını sat. Bu xidmətlərlə fərdi və müəssisələr üçün rəqəmsal gəlir dünyasına addım at!",
+    "weecard": {
+      "title": "WeeCard Nədir?",
+      "content": "WeeCard ilə bütün əlaqə məlumatlarını rəqəmsallaşdır, QR kodla dərhal paylaş! İnkişaf etmiş interfeysi ilə sosial media, məhsullar, kataloqlar və əlaqə kanallarını tək platformada birləşdir. Hər şey peşəkar, sürətli və təsirli şəkildə təqdim olunur."
+    },
+    "weezard": {
+      "title": "WeeZard Nədir?",
+      "content": "WeeZard ilə əyləncəni qazanca çevir! Jackpot və qazı-qazan kimi oyunlarla vaxt keçirərkən WCP qazanırsan. Qazandığın WCP-ləri müxtəlif üstünlüklər üçün istifadə edə, daha çox kəşf etdikcə əyləncəni artırırsan. Hər oyunda şansını sınayın, hər qazancda həyəcanı ikiqat yaşayın!"
+    },
+    "weekobi": {
+      "title": "WeeKobi Nədir?",
+      "content": "KOBİ-ləri rəqəmsal şəkildə müştərilərlə birləşdirən, endirim kartı və françayzinq modeli ilə qlobal üstünlüklər və passiv gəlir təklif edən sosial ticarət platformasıdır. Reklam büdcəniz məhdud ola bilər, amma düzgün kanallar və strategiya ilə daha az xərc ilə daha çox görünürlük əldə edə bilərsiniz. Biznesinizi böyütmək üçün potensial müştərilərə daha effektiv çatmaq vacibdir.",
+      "title2": "Müştəri və KOBİ",
+      "content2": "WeeKobi, bizneslər üçün rəqəmsal gəlir şəbəkəsidir. Müştəri müəssisəyə gəldikdə WCP ilə ödəniş edə bilər. Bu, müəssisənin mövcud istifadəçilərə özünü tanıtmasına və gəlir əldə etməsinə imkan verir. WeePoint, müştərilərin ətrafdakı müəssisələri kəşf etməsinə kömək edir. Müştəri tətbiqə qeydiyyatdan keçə və referans kodu ilə başqalarını dəvət edə bilər."
+    },
+    "weesale": {
+      "title": "WeeSale Nədir?",
+      "content": "WeeSale ilə sıfır və ya ikinci əl məhsullarını WCP ilə asanlıqla satışa çıxar. Qazandığın WCP-ləri xərcləyə və ya sərmayəyə çevirə bilərsən. Referanslarınla passiv gəlir də əldə edə bilərsən! İstifadəçi dostu interfeysi sayəsində elan yerləşdirmək və satış etmək cəmi bir neçə dəqiqə çəkir."
+    }
+  },
+  "NewsPage": {
+    "h1": "WeeCoins Mediada",
+    "subtitle": "WeeCoins kriptovalyuta dünyasında qazandığı uğurlar sayəsində mediada geniş yer tutur. Beynəlxalq mükafatlar, ekspert rəyləri və qlobal təqdimatlarla gündəmdə qalmağa davam edir. Etibarlılığı və innovativ yanaşması sayəsində həm investorların, həm də medianın diqqət mərkəzinə çevrilib.",
+    "newspapers": {
+      "title": "Xəbərlər",
+      "weecoins": {
+        "title": "Weecomi, Weecoins ilə kriptovalyuta sektorunda inqilab etdi",
+        "subtitle": "Weecomi International-ın alt markası olan Weecoins, öz kriptovalyutasını və birjasını işə salaraq sektora giriş etdi."
+      },
+      "cryptoCurrencyExpert": {
+        "title": "Özkan Cıbır, İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi seçildi",
+        "subtitle": "İstanbul MKM-də təşkil olunan möhtəşəm 'Qızıl Mələk' Mükafatları gecəsində bir çox sahədə tanınmış şəxslər mükafatlandırıldı. Axşamın diqqət çəkən adlarından biri kripto sektorunun qabaqcıl ismi Özkan Cıbır oldu və ilin kriptovalyuta mütəxəssisi seçildi."
+      },
+      "shopping": {
+        "title": "Weecoins ilə alış-verişdə yeni dövr",
+        "subtitle": "Weecoins, dünyada kriptovalyutaların gündəlik və lokal alış-verişlərdə istifadəsini genişləndirəcək."
+      },
+      "wedding": {
+        "title": "Bəyin qohumundan min kripto hədiyyəsi",
+        "subtitle": "Hatayın İskenderun şəhərində keçirilən Oğuzhan və Özge Altunkürekin toyunda maraqlı bir hədiyyə mərasimi keçirildi. Kripto sərmayəçisi olan ailə qohumu Hamza Özkan Cıbır tərəfindən gəlin və bəyə hər biri 3 dollar dəyərində min ədəd kriptovalyuta hədiyyə edildi. Gəlinin atası Metin Buluç ilk dəfə belə bir şeylə qarşılaşdıqlarını qeyd edərək, rəqəmsal pulun hər kəsə xeyirli olmasını arzuladı."
+      },
+      "kripto": {
+        "title": "Özkan Cıbır, İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi seçildi",
+        "subtitle": "2020-ci ildən bəri Türkiyədə kripto sahəsində fəaliyyət göstərən Cıbır, dünyanın bir çox ölkəsində təlimlər keçirir. Yerli blokçeyn şəbəkəsinə sahib olan uğurlu sahibkar yalnız təlimlərlə kifayətlənmir, eyni zamanda süni intellekt əsaslı ticarət robotları da hazırlayır. Bu robotlar müxtəlif firmalar və təşkilatlar üçün xüsusi tokenlər təqdim edir və Cıbır müxtəlif TV proqramlarında kripto dünyası ilə bağlı bilikləri geniş auditoriyaya çatdırır."
+      },
+      "expert": {
+        "title": "İlin Ən Yaxşı Kripto Mütəxəssisi seçildi",
+        "subtitle": "İstanbul MKM-də keçirilən təntənəli 'Qızıl Mələk' Mükafatları mərasimində idman, sənət və iş dünyasından tanınmış simalar mükafatlandırıldı. Gecənin önəmli məqamlarından biri də Özkan Cıbırın İlin Kripto Mütəxəssisi adına layiq görülməsi oldu."
+      }
+    }
+  },
+  "WeelifePage": {
+    "h1": "WeeLife ilə Bayramı Paylaş",
+    "content": "WeeCoins olaraq bayram sevincini Burkina Fasodakı uşaqlarla paylaşmaq üçün yola çıxdıq. Qurban bağışlarınızla daha çox uşağın üzünü güldürə və onların ümid dolu bir bayram yaşamasına töhfə verə bilərsiniz.",
+    "content2": "Gəlin birlikdə paylaşmağın sevincini böyüdək! Sənin dəstəyinlə bayram yalnız bir gün deyil, unudulmaz bir xatirəyə çevrilə bilər.",
+    "totalDonation": "Ümumi Bağış",
+    "infoShow": "Məlumatlarımı Göstər",
+    "infoShowDesc": "(Yalnız adınız göstəriləcək.)",
+    "donate": "Bağışla",
+    "proccessing": "Emal olunur",
+    "right": {
+      "title": "Bayram Sevinci Paylaş, Ümidə Şərik Ol!",
+      "content": "Məsuliyyətə önəm verən təşkilatımız Qurban Bayramında Burkina Fasodakı insanlara yardım əlini uzadır. Bayram sevincini və xoşbəxtliyini yerli insanlarla paylaşırıq. Qurbanlar kəsir və yerli camaata çatdırırıq. Paylaşmağın sevincini yaşamaq üçün bizə qoşul!",
+      "content2": "WeeCoins, Burkina Fasoda uşaqlara bayram sevinci bəxş edir! Bayramlar uşaqkən daha gözəldir. Onlara xoş xatirələrlə dolu bayram yaşatmaq üçün geyimlər hədiyyə edirik. Birlikdə daha güclüyük, bizə qoşul və ümidi böyüt!",
+      "content3": "Qurbanınızı bağışlayaraq bu böyük dəyişikliyin bir hissəsi olun. Bağışınızla Burkina Fasoda ümidi böyütməyə dəstək ola bilərsiniz. Birlikdə daha çox uşağın gülümsəməsini və ölkənin gələcəyinin işıqlanmasını təmin edə bilərik!",
+      "content4": "Burkina Fasoda ümidi böyüdən bu layihəyə qoşularaq həm cəmiyyətin rifahına töhfə verə, həm də Qurban Bayramınızı daha mənalı edə bilərsiniz."
+    },
+    "modal": {
+      "hello": "Salam, əziz dost",
+      "nameWallet": "Adınıza yaradılmış aşağıdakı cüzdan ünvanına bağışlamaq istədiyiniz məbləği göndərə bilərsiniz.",
+      "afterDonation": "Bağış etdikdən sonra adınız dəstəkçilər siyahısında görünəcək.",
+      "nameWalletAddress": "Adınıza yaradılmış cüzdan ünvanı",
+      "note": "Göndərdiyiniz məbləğin tam olaraq uyğun olduğuna əmin olun. Uyğun deyilsə, əməliyyat həyata keçirilmir.",
+      "close": "Çıxış"
+    },
+    "form": {
+      "name": {
+        "placeholder": "Ad Soyad",
+        "validation": {
+          "min": "Ad çox qısadır",
+          "required": "Ad sahəsi mütləqdir"
+        }
+      },
+      "phone": {
+        "validation": {
+          "min": "Telefon nömrəsi çox qısadır",
+          "required": "Telefon nömrəsi vacibdir"
+        }
+      },
+      "amount": {
+        "placeholder": "Məbləğ",
+        "validation": {
+          "min": "Məbləğ ən az 1 olmalıdır",
+          "required": "Məbləğ vacibdir"
+        }
+      }
+    }
+  },
+  "SuccessStoriesPage": {
+    "h1": "Uğur Hekayələri",
+    "content": "Həqiqi istifadəçilərimizin ilhamverici uğur hekayələrini kəşf edin. Siz də öz hekayənizi paylaşaraq bu böyük icmanın bir parçası olun. Hər yolculuq əzmkarlıq, qətiyyət və fürsətləri doğru zamanda dəyərləndirməklə formalaşır. Uğura gedən yolda tək olmadığınızı anlayacaq və paylaşılan təcrübələrdən ilham alacaqsınız. İndi öz hekayənizi paylaşın, başqalarına yol göstərin!",
+    "readMore": "Ətraflı Oxu",
+    "back": "Geri Qayıt"
   },
   "ContactPage": {
     "title": "Əlaqə",
@@ -93,38 +248,6 @@
         "server": "Server xətası baş verdi"
       },
       "success": "Mesajınız göndərildi. Təşəkkür edirik!"
-    }
-  },
-  "NewsFromUs": {
-    "title": "Bizdən Xəbərlər",
-    "subtitle": "Ən son yeniliklərdən xəbərdar olun.",
-    "mediaTitle": "WeeCoins Premium Mətbuatda",
-    "newspapers": {
-      "title": "Xəbərlər",
-      "weecoins": {
-        "title": "Weecomi, Weecoins ilə kriptovalyuta sektorunda yenilik etdi",
-        "subtitle": "Weecomi International, Weecoins alt markası ilə öz kriptovalyutasını və birjasını işə salaraq kriptovalyuta sektoruna qədəm qoydu."
-      },
-      "cryptoCurrencyExpert": {
-        "title": "ÖZKAN CIBIR, İLİN ƏN YAXŞI KRİPTO PULA UZMANI SEÇİLDİ",
-        "subtitle": "Qızıl Mələk Mükafatları İstanbul MKM-də möhtəşəm bir mərasimlə sahiblərinə təqdim edildi. Biznes, cəmiyyət, idman və incəsənət sahələrindən bir çox görkəmli şəxs nailiyyətlərinə görə mükafatlandırıldı. Gecənin diqqətçəkən adlarından biri kripto pul sektorunun öncüllərindən olan Özkan Cıbır oldu. Cıbır, ilin ən yaxşı kripto pul eksperti mükafatına layiq görüldü."
-      },
-      "shopping": {
-        "title": "Weecoins ilə alış-verişdə yeni dövr",
-        "subtitle": "Weecoins, dünyada kriptovalyutaların gündəlik və yerli alış-verişlərdə istifadəsini genişləndirəcək."
-      },
-      "wedding": {
-        "title": "Bəyin yaxınından min kripto",
-        "subtitle": "Hatay İskenderunda Oğuzhan və Özge Altunkürekin toyunda maraqlı bir takı mərasimi keçirildi. Kriptovalyuta investorları olan ailə yaxınlarından Hamza Özkan Cıbır, gəlinə və bəyə hər biri 3 dollar dəyərində min ədəd kriptovalyuta hədiyyə etdi. Gəlinin atası Metin Buluç, belə bir şeyə ilk dəfə rast gəldiklərini bildirərək, rəqəmsal pulun hər kəsə xeyirli olmasını arzuladı."
-      },
-      "kripto": {
-        "title": "Özkan Cıbır İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi seçildi",
-        "subtitle": "2020-ci ildən bəri Cıbır Türkiyədə kriptovalyuta sahəsində fəaliyyət göstərir və dünyanın müxtəlif ölkələrində təlimlər təşkil edir. Yerli blokçeyn şəbəkəsinə sahib uğurlu sahibkar yalnız tədrislə kifayətlənməyib, həm də süni intellekt əsaslı ticarət robotları inkişaf etdirir. Bu robotlar dünya miqyasında bir çox şirkət və təşkilata xüsusi tokenlər təqdim edir. Bundan əlavə, o, müxtəlif televiziya kanallarında verilişlər apararaq, kriptovalyuta dünyası ilə bağlı bilikləri geniş auditoriyaya çatdırır."
-      },
-      "expert": {
-        "title": "İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi seçildi",
-        "subtitle": "İstanbul MKM-də möhtəşəm bir mərasimdə Qızıl Mələk Mükafatları sahiblərinə təqdim olundu. İdmandan sənətə qədər müxtəlif sahələrdə verilən bu nüfuzlu mükafatlar, uğurları təltif etdi. Gecənin ən yaddaqalan anlarından biri isə kriptovalyuta sektorunun tanınmış simalarından biri olan Özkan Cıbırın 'İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi' mükafatını qazanması oldu."
-      }
     }
   }
 }

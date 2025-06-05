@@ -25,68 +25,68 @@ export default function Slide5Swiper() {
   }
 
   return (
-    <main className="relative w-full z-10">
+    <main className="relative w-full z-10 my-auto">
       <Swiper
         direction={windowWidth > 1024 ? "vertical" : "horizontal"}
-        className={`w-full lg:w-[350px] h-full max-h-[250px] lg:max-h-[570px] rounded-xl`}
+        className={`w-full lg:w-[350px] h-full max-h-[150px] lg:max-h-[570px] rounded-xl`}
         modules={[Autoplay]}
         spaceBetween={50}
         slidesPerView={windowWidth > 1024 ? 1 : 2}
         autoplay={{ disableOnInteraction: false, delay: 3000 }}
         loop
       >
-        <SwiperSlide className="!flex items-center justify-center h-full">
+        <SwiperSlide className="!flex items-center justify-center min-h-full">
           <Image
             src="/images/weecard-theme/theme-1.png"
             alt="weecard theme "
             width={350}
             height={700}
-            className="object-fill lg:object-contain object-center w-full max-w-[280px] max-h-[250px] lg:max-h-fit rounded-xl"
+            className="object-fill lg:object-contain object-center w-full max-w-[280px] min-h-[150px] max-h-[150px] lg:max-h-fit rounded-xl"
           />
         </SwiperSlide>
-        <SwiperSlide className="!flex items-center justify-center h-full">
+        <SwiperSlide className="!flex items-center justify-center min-h-full">
           <Image
             src="/images/weecard-theme/theme-2.png"
             alt="weecard theme"
             width={350}
             height={700}
-            className="object-fill lg:object-contain object-center w-full max-w-[280px] max-h-[250px] lg:max-h-fit rounded-xl"
+            className="object-fill lg:object-contain object-center w-full max-w-[280px] min-h-[150px] max-h-[150px] lg:max-h-fit rounded-xl"
           />
         </SwiperSlide>
-        <SwiperSlide className="!flex items-center justify-center h-full">
+        <SwiperSlide className="!flex items-center justify-center min-h-full">
           <Image
             src="/images/weecard-theme/theme-3.png"
             alt="weecard theme"
             width={350}
             height={700}
-            className="object-fill lg:object-contain object-center w-full max-w-[280px] max-h-[250px] lg:max-h-fit rounded-xl"
+            className="object-fill lg:object-contain object-center w-full max-w-[280px] min-h-[150px] max-h-[150px] lg:max-h-fit rounded-xl"
           />
         </SwiperSlide>
-        <SwiperSlide className="!flex items-center justify-center h-full">
+        <SwiperSlide className="!flex items-center justify-center min-h-full">
           <Image
             src="/images/weecard-theme/theme-4.png"
             alt="weecard theme"
             width={350}
             height={700}
-            className="object-fill lg:object-contain object-center w-full max-w-[280px] max-h-[250px] lg:max-h-fit rounded-xl"
+            className="object-fill lg:object-contain object-center w-full max-w-[280px] min-h-[150px] max-h-[150px] lg:max-h-fit rounded-xl"
           />
         </SwiperSlide>
-        <SwiperSlide className="!flex items-center justify-center h-full">
+        <SwiperSlide className="!flex items-center justify-center min-h-full">
           <Image
             src="/images/weecard-theme/theme-5.png"
             alt="weecard theme"
             width={350}
             height={700}
-            className="object-fill lg:object-contain object-center w-full max-w-[280px] max-h-[250px] lg:max-h-fit rounded-xl"
+            className="object-fill lg:object-contain object-center w-full max-w-[280px] min-h-[150px] max-h-[150px] lg:max-h-fit rounded-xl"
           />
         </SwiperSlide>
-        <SwiperSlide className="!flex items-center justify-center h-full">
+        <SwiperSlide className="!flex items-center justify-center min-h-full">
           <Image
             src="/images/weecard-theme/theme-6.png"
             alt="weecard theme"
             width={350}
             height={700}
-            className="object-fill lg:object-contain object-center w-full max-w-[280px] max-h-[250px] lg:max-h-fit rounded-xl"
+            className="object-fill lg:object-contain object-center w-full max-w-[280px] min-h-[150px] max-h-[150px] lg:max-h-fit rounded-xl"
           />
         </SwiperSlide>
       </Swiper>

@@ -8,7 +8,7 @@ export default function Slide5({ classNames, index }) {
   const t = useTranslations("HomePage.ecosystem");
   return (
     <article
-      className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex flex-col lg:flex-row items-start justify-center gap-4 md:gap-8 bg-zinc-900 p-3 overflow-hidden ${classNames}`}
+      className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 rounded-2xl sticky flex flex-col lg:flex-row items-start justify-center gap-4 md:gap-8 bg-zinc-900 p-3 overflow-hidden ${classNames}`}
       style={{
         top: `calc(${index} * 1.5rem + 4rem)`,
       }}
@@ -38,7 +38,7 @@ export default function Slide5({ classNames, index }) {
         </div>
         <div className="md:block hidden mt-6 text-2xl font-semibold tracking-widest text-main-white [font-feature-settings:'zero'] p-2 rounded-xl bg-main-black">05</div>
       </div>
-      <div className="relative flex-1 w-full min-h-[50%] lg:min-h-auto h-full rounded-xl overflow-hidden lg:pt-12 p-4">
+      <div className="relative flex-1 w-full min-h-[42%] lg:min-h-auto h-full rounded-xl overflow-hidden lg:pt-12 p-4 flex items-center">
         <Slide5Swiper />
         <DotBackgroundDemo />
       </div>

@@ -9,6 +9,15 @@
     "successStories": "Success Stories",
     "contact": "Contact"
   },
+  "Footer": {
+    "writeToUs": "Write to Us",
+    "contactSubtitle": "We carefully follow up and implement your technical support requests, questions, and suggestions.",
+    "sendEmail": "Send Email",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "socialMedia": "Social Media",
+    "copyright": "WeeCoins. All rights reserved."
+  },
   "HomePage": {
     "hero": {
       "h1": "Key to the Digital Future: Weecoins",
@@ -56,6 +65,146 @@
       "slide5": {
         "subtitle": "Digitize all your contact information with WeeCard and share it instantly via QR code! Gather your social media, products, catalogs, and communication channels all in one place through its advanced interface. Everything is professional, fast, and impressive."
       }
+    },
+    "weelife": {
+      "h2": "Stronger Together",
+      "subtitle": "We deliver your Qurbani donations to our brothers and sisters in Burkina Faso through WeeCoins, spreading hope and joy together.",
+      "card1": {
+        "title": "One Sacrifice, Endless Gratitude!",
+        "content": "As a responsible organization, we extend our helping hand to the people of Burkina Faso during Eid al-Adha. We share the joy and spirit of the holiday with the local community by delivering your sacrificial donations to those in need. Join us in experiencing the peace that comes from sharing."
+      },
+      "card2": {
+        "title": "WeeCoins is There for Them this Eid",
+        "content": "As the WeeCoins family, we are once again in Burkina Faso this Eid. We offer Qurbani, share with the local people, and gift children an unforgettable holiday. Eid is especially for children; a smile on their face is worth a thousand thanks. Together we bring hope, together we grow stronger."
+      },
+      "card3": {
+        "title": "One Donation, One Smile",
+        "content": "By donating your Qurbani, you can become part of this great change. With your contributions, we share not just meat, but hope and happiness. Every Qurbani means an unforgettable Eid memory in a child’s life. Let’s bring more smiles together."
+      },
+      "card4": {
+        "title": "Share Hope, Brighten the Future",
+        "content": "This Eid, you can make a difference in the lives of our brothers and sisters in Burkina Faso. Your Qurbani donations won’t only fulfill a religious duty but also shine a light of hope on a community’s future. Join us for a more meaningful Eid."
+      }
+    }
+  },
+  "AboutPage": {
+    "h1": "About Weecoins",
+    "subtitle": "Weecoins is a versatile and powerful crypto asset operating on the Weegold network. With a wide range of use cases from shopping to smart contracts, staking to AI-powered applications, it is not just an investment tool but a core component of the digital economy ecosystem.",
+    "weegold": {
+      "title": "What is the WeeGold Network?",
+      "content": "The WeeGold network is operated by WeeComi International and has a broad range of applications in the crypto world. It supports the cryptocurrencies WeeCoins Premium (WCP) and WeeCoins (WCS), launched in 2020, and is actively traded on various international platforms."
+    },
+    "blockchain": {
+      "title": "What is Blockchain?",
+      "content": "Blockchain is a distributed ledger technology that ensures data is stored securely and transparently. Each piece of data is a block in the chain, and these blocks are cryptographically linked.",
+      "content2": "This technology is mainly used for cryptocurrencies but is also applied in finance, supply chains, digital identity, and more. The decentralized structure of blockchain eliminates intermediaries, reduces costs, and accelerates transactions."
+    },
+    "weecomi": {
+      "content": "Founded in 2013, WeeComi International is a software company with AI-based cryptocurrency exchange projects. With investors in 10 countries and nearly 40 business partners, it is positioned as a global brand."
+    },
+    "weelife": {
+      "content": "WeeLife is a humanitarian project initiated by WeeComi International to improve the quality of life in Africa, particularly in Tanzania.",
+      "content2": "The project aims to establish a global chain of aid and promote social responsibility initiatives."
+    }
+  },
+  "EcosystemPage": {
+    "h1": "WeeCoins Ecosystem",
+    "subtitle": "WeeEcosystem is a WCP-supported holistic digital platform that combines many different solutions—from digital identity to social commerce, fun games to second-hand marketplaces. Digitize your communication with WeeCard, earn while playing with WeeZard, grow your business with WeeKobi, and sell your products with WeeSale. Step into the new world of digital income for both individuals and businesses!",
+    "weecard": {
+      "title": "What is WeeCard?",
+      "content": "Digitize all your contact information with WeeCard and share instantly via QR code! With its advanced interface, gather your social media, products, catalogs, and communication channels in one place. Everything is professional, fast, and impressive."
+    },
+    "weezard": {
+      "title": "What is WeeZard?",
+      "content": "Turn fun into profit with WeeZard! While enjoying games like Jackpot and scratch cards, you earn WCP. Use your WCP for various advantages and increase your enjoyment as you discover more. Try your luck in every game, double the excitement with every win!"
+    },
+    "weekobi": {
+      "title": "What is WeeKobi?",
+      "content": "A social commerce platform that connects SMEs with digital customers, offering global benefits and passive income through a discount card and franchise model. Your advertising budget may be limited, but with the right channels and strategies, you can achieve more visibility at a lower cost. To grow your business, reaching potential customers more effectively is essential.",
+      "title2": "Customer and SME",
+      "content2": "WeeKobi is a digital income network for businesses. When a customer visits a business, they can pay with WCP. This way, the business promotes itself to existing users and earns income. WeePoint helps customers discover nearby businesses. Users can register in the app and invite others using a referral code."
+    },
+    "weesale": {
+      "title": "What is WeeSale?",
+      "content": "With WeeSale, list your new or second-hand products for sale using WCP easily. You can spend your earned WCP or use them as an investment. Earn passive income through your referrals! Plus, thanks to its user-friendly interface, creating listings and selling takes just minutes."
+    }
+  },
+  "NewsPage": {
+    "h1": "WeeCoins in the Media",
+    "subtitle": "WeeCoins is making headlines in the crypto world with its remarkable achievements. It continues to stay in the spotlight through international awards, expert reviews, and global launches. Thanks to its reliability and innovative approach, it has become a focal point for both investors and the media.",
+    "newspapers": {
+      "title": "News",
+      "weecoins": {
+        "title": "Weecomi Disrupts the Crypto Sector with Weecoins",
+        "subtitle": "As a sub-brand of Weecomi International, Weecoins launched its own cryptocurrency and exchange, entering the crypto sector."
+      },
+      "cryptoCurrencyExpert": {
+        "title": "Özkan Cıbır Named Crypto Expert of the Year",
+        "subtitle": "The Golden Angel Awards found their recipients at a glamorous ceremony at Istanbul MKM. From business to society, from sports to the arts, many notable names were honored. One of the evening’s highlights was Özkan Cıbır, a pioneer in the crypto sector, who received the Crypto Expert of the Year award."
+      },
+      "shopping": {
+        "title": "A New Era in Shopping with Weecoins",
+        "subtitle": "Weecoins will expand the use of cryptocurrencies in daily and local shopping worldwide."
+      },
+      "wedding": {
+        "title": "A Thousand Cryptos from the Groom’s Relative",
+        "subtitle": "At the wedding of Oğuzhan and Özge Altunkürek in İskenderun, Hatay, a unique gift ceremony was held. A thousand cryptocurrencies, each worth $3, were gifted by family member and crypto investor Hamza Özkan Cıbır. The bride’s father, Metin Buluç, said it was the first time he had seen such a gesture and wished for the digital currency to bring good fortune to everyone."
+      },
+      "kripto": {
+        "title": "Özkan Cıbır Named Crypto Expert of the Year",
+        "subtitle": "Since 2020, Özkan Cıbır has been working in the crypto field in Turkey and conducting trainings in many countries around the world. The successful entrepreneur, who owns a local blockchain network, also develops AI-based trading bots and offers custom tokens for firms and associations. He also runs TV programs to share crypto knowledge with broader audiences."
+      },
+      "expert": {
+        "title": "Awarded Crypto Expert of the Year",
+        "subtitle": "At a spectacular ceremony held at Istanbul MKM, the Golden Angel Awards were presented. These prestigious awards span from sports to the arts, honoring excellence across various fields. One highlight was Özkan Cıbır receiving the Crypto Expert of the Year award for his impact on the crypto sector."
+      }
+    }
+  },
+  "WeelifePage": {
+    "h1": "Share the Joy of Eid with WeeLife",
+    "content": "As WeeCoins, we set out to share the joy of Eid with children in Burkina Faso. With your Qurbani donations, you can bring smiles to more children's faces and help them experience a joyful Eid.",
+    "content2": "Let’s grow the happiness of sharing together! With your support, Eid can become more than just a day – it can turn into an unforgettable memory.",
+    "totalDonation": "Total Donation",
+    "infoShow": "Show My Info",
+    "infoShowDesc": "(Only your name will be displayed.)",
+    "donate": "Donate",
+    "proccessing": "Processing",
+    "right": {
+      "title": "Share Eid Joy, Become a Partner in Hope!",
+      "content": "As a socially responsible organization, we extend a helping hand to the people of Burkina Faso during Eid al-Adha. We share the joy and happiness of the holiday by offering Qurbani and distributing it to the local community. Join us to experience the joy of sharing!",
+      "content2": "WeeCoins is bringing festive joy to children in Burkina Faso! Eid is always more magical in childhood. We gift them clothes and smiles for a holiday they’ll remember forever. We are stronger together—join us to grow hope.",
+      "content3": "Be part of this great change by donating your Qurbani. You can contribute to spreading hope in Burkina Faso. Together we can bring more smiles and light up the future of an entire country!",
+      "content4": "By joining this meaningful project that nurtures hope in Burkina Faso, you contribute to the betterment of the community and make your Eid more meaningful."
+    },
+    "modal": {
+      "hello": "Hello, dear",
+      "nameWallet": "You can send your desired donation amount to the wallet address created in your name below.",
+      "afterDonation": "After your donation, your name will be listed among the supporters.",
+      "nameWalletAddress": "Wallet address created in your name",
+      "note": "Make sure the amount you send matches exactly. If it does not match, the transaction will not be processed.",
+      "close": "Close"
+    },
+    "form": {
+      "name": {
+        "placeholder": "Your Full Name",
+        "validation": {
+          "min": "Name is too short",
+          "required": "Name is required"
+        }
+      },
+      "phone": {
+        "validation": {
+          "min": "Phone number is too short",
+          "required": "Phone number is required"
+        }
+      },
+      "amount": {
+        "placeholder": "Custom Amount",
+        "validation": {
+          "min": "Amount must be at least 1",
+          "required": "Amount is required"
+        }
+      }
     }
   },
   "ContactPage": {
@@ -94,6 +243,12 @@
       },
       "success": "Your message has been sent. Thank you!"
     }
+  },
+  "SuccessStoriesPage": {
+    "h1": "Success Stories",
+    "content": "Discover inspiring success stories from our real users. Become a part of this great community by sharing your own journey. Each path is shaped by determination, persistence, and seizing opportunities at the right time. You will realize you are not alone on the road to success and find inspiration in shared experiences. Share your story now and light the way for others!",
+    "readMore": "Read More",
+    "back": "Go Back"
   },
   "NewsFromUs": {
     "title": "News From Us",

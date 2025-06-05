@@ -37,7 +37,6 @@ const getSuccessStories = async () => {
 export default async function SuccessStories() {
   const fetchedData = await getSuccessStories();
   const successStoriesData = fetchedData.data && fetchedData.data.length > 0 ? fetchedData.data : jsonData;
-  console.log(successStoriesData);
   return (
     <SuccessStoriesMain>
       <SuccessStoriesHeader />

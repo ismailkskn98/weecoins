@@ -4,14 +4,16 @@ import { FaExternalLinkAlt, FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { Link } from "@/i18n/navgation";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations();
   const navItems = [
-    { name: "About", href: "/about" },
-    { name: "Ekosystem", href: "/ekosystem" },
-    { name: "News", href: "/news" },
-    { name: "WeeLife", href: "/weelife" },
-    { name: "Contact", href: "/contact" },
+    { name: t("Navbar.about"), href: "/about" },
+    { name: t("Navbar.ecosystem"), href: "/ecosystem" },
+    { name: t("Navbar.news"), href: "/news" },
+    { name: t("Navbar.weelife"), href: "/weelife" },
+    { name: t("Navbar.contact"), href: "/contact" },
   ];
 
   return (
@@ -19,12 +21,12 @@ export default function Footer() {
       <main className="w-full">
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 justify-items-start md:justify-items-center">
           <article className="space-y-6">
-            <h3 className="text-lg font-bold text-white/90 mb-4 uppercase">Contact</h3>
+            <h3 className="text-lg font-bold text-white/90 mb-4 uppercase">{t("Navbar.contact")}</h3>
             <div className="text-gray-400 space-y-4">
               <p className="flex items-center gap-6 text-sm">
-                <span>Write to Us</span>
+                <span>{t("Footer.writeToUs")}</span>
               </p>
-              <p className="mb-4 text-sm">We carefully follow and implement your technical support requests, inquiries, and suggestions.</p>
+              <p className="mb-4 text-sm">{t("Footer.contactSubtitle")}</p>
               <Link
                 href="mailto:info@criptoswaps.com"
                 className="relative w-min text-nowrap group overflow-hidden flex items-center gap-1 bg-[#FDC739] text-text-black px-3 py-2 text-sm rounded-sm before:absolute before:content-['Send_an_Email'] before:top-1/2 before:-translate-y-12 before:left-1/2 before:-translate-x-1/2 before:transition-all before:duration-300 hover:before:-translate-y-1/2 before:transform before:text-text-black"
@@ -33,13 +35,13 @@ export default function Footer() {
                 <span className="inline-block bg-main-black absolute -right-[1.5px] top-1/2 -translate-y-1/2 w-[3px] h-4"></span>
                 <span className="inline-block bg-main-black absolute left-1/2 top-[-1.5px] -translate-x-1/2 w-4 h-[3px]"></span>
                 <span className="inline-block bg-main-black absolute left-1/2 bottom-[-1.5px] -translate-x-1/2 w-4 h-[3px]"></span>
-                <span className="translate-y-0 group-hover:translate-y-12 transition-all duration-300 relative z-20 inline-block transform capitalize">Send an Email</span>
+                <span className="translate-y-0 group-hover:translate-y-12 transition-all duration-300 relative z-20 inline-block transform capitalize">{t("Footer.sendEmail")}</span>
               </Link>
             </div>
           </article>
 
           <article className="space-y-4">
-            <h3 className="text-lg font-bold text-white/90 uppercase">Hızlı Bağlantılar</h3>
+            <h3 className="text-lg font-bold text-white/90 uppercase">{t("Footer.quickLinks")}</h3>
             <nav className="flex flex-col items-start gap-4 text-sm capitalize">
               {navItems.map((item, i) => (
                 <Link key={i} href={item.href} className="!text-gray-400 hover:!text-[#FCD535] transition-colors">
@@ -51,7 +53,7 @@ export default function Footer() {
 
           <div className="space-y-4">
             <div className="flex items-center gap-1.5">
-              <h3 className="text-lg font-bold !text-white/90 uppercase">hizmetlerimiz</h3>
+              <h3 className="text-lg font-bold !text-white/90 uppercase">{t("Footer.services")}</h3>
               <FaExternalLinkAlt className="text-base translate-y-0 group-hover:translate-y-12 transition-all duration-300 relative z-20 inline-block transform" />
             </div>
             <nav className="flex flex-col items-start gap-4 text-sm capitalize">
@@ -74,7 +76,7 @@ export default function Footer() {
           </div>
 
           <div className="space-y-4">
-            <h3 className="text-lg font-bold !text-white/90 uppercase">SOCIAL MEDIA</h3>
+            <h3 className="text-lg font-bold !text-white/90 uppercase">{t("Footer.socialMedia")}</h3>
             <div className="!flex items-center gap-4 text-base">
               <Link
                 href="https://x.com/criptoswapstr"
@@ -109,7 +111,7 @@ export default function Footer() {
         </section>
 
         <section className="pt-8 border-t border-white/10 w-full flex items-center justify-center">
-          <p className="text-gray-400 text-xs">© 2025 WeeCoins. All rights reserved.</p>
+          <p className="text-gray-400 text-xs">© 2025 {t("Footer.copyright")}</p>
         </section>
       </main>
     </footer>

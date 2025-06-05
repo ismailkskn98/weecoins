@@ -6,7 +6,7 @@ export default function Slide2({ classNames, index }) {
   const t = useTranslations("HomePage.ecosystem");
   return (
     <article
-      className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex flex-col lg:flex-row justify-center gap-4 md:gap-8 bg-logo-button p-3 overflow-hidden ${classNames}`}
+      className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 rounded-2xl sticky flex flex-col lg:flex-row justify-center gap-4 md:gap-8 bg-logo-button p-3 overflow-hidden ${classNames}`}
       style={{
         top: `calc(${index} * 1.5rem + 4rem)`,
       }}
@@ -19,7 +19,7 @@ export default function Slide2({ classNames, index }) {
         <Slide2Rive />
         <DotBackgroundDemo />
       </div>
-      <div className="order-1 md:order-2 w-full h-full max-w-full lg:max-w-[42%] flex flex-col items-start justify-between gap-2 p-5 md:p-10 text-text-black">
+      <div className="order-1 md:order-2 w-full h-full max-w-full lg:max-w-[42%] flex flex-col items-start justify-between gap-2 p-5 md:p-8 text-text-black">
         <div className="w-full flex flex-col items-start gap-2">
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-medium mb-1 lg:mb-4">{t("slide2.title")}</h2>
           <p className="text-[clamp(12px,1.05vw,17px)] text-text-black/70 tracking-wide">{t("slide2.subtitle")}</p>

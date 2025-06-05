@@ -15,7 +15,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 export default function NewspapersCarousel() {
   const [slidesPerView, setSlidesPerView] = useState(2);
-  const t = useTranslations("NewsFromUs");
+  const t = useTranslations("NewsPage");
 
   const items = [
     {
@@ -82,9 +82,9 @@ export default function NewspapersCarousel() {
           "h-[180px]": slidesPerView === 2,
         })}
       >
-        {items.map((item) => {
+        {items.map((item, index) => {
           return (
-            <SwiperSlide key={item.title} className="group relative cursor-pointer overflow-hidden rounded-xl border-2 border-zinc-800 bg-black">
+            <SwiperSlide key={index} className="group relative cursor-pointer overflow-hidden rounded-xl border-2 border-zinc-800 bg-black">
               <Link href={item.url} target="_blank" className="group flex h-full w-full flex-col items-center justify-center gap-3 bg-black">
                 <div className="relative h-full w-full overflow-hidden">
                   <Image src={`/images/${item.image}`} alt={item.title} width={400} height={360} className="h-full w-full object-cover absolute inset-0 blur-xs" />

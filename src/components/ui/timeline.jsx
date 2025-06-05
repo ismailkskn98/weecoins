@@ -2,7 +2,7 @@
 import { useScroll, useTransform, motion } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
 
-export const Timeline = ({ data, isAbout = false }) => {
+export const Timeline = ({ data, isAbout = false, title, subtitle }) => {
   const ref = useRef(null);
   const containerRef = useRef(null);
   const [height, setHeight] = useState(0);
@@ -25,11 +25,8 @@ export const Timeline = ({ data, isAbout = false }) => {
   return (
     <div className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10 pt-24" ref={containerRef}>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h1 className="text-lg md:text-5xl mb-4 text-black dark:text-white font-medium max-w-4xl">Weecoins Hakkımızda</h1>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm lg:text-base w-full">
-          Weecoins, Weegold ağı üzerinde çalışan, çok yönlü ve güçlü bir kripto varlıktır. Alışverişten akıllı sözleşmelere, staking'den yapay zekâ destekli uygulamalara kadar geniş bir kullanım alanıyla, sadece bir
-          yatırım aracı değil, dijital ekonominin merkezinde yer alan bir ekosistem bileşenidir.
-        </p>
+        <h1 className="text-lg md:text-5xl mb-4 text-main-white font-medium max-w-4xl">{title}</h1>
+        <p className="text-main-white/80 text-sm lg:text-base w-full">{subtitle} </p>
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (

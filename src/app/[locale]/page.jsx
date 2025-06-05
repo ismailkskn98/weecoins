@@ -1,4 +1,4 @@
-import Ecosystem from "@/components/home/ekosystem";
+import Ecosystem from "@/components/home/ecosystem";
 import Hero from "@/components/home/hero";
 import LogoCarousel from "@/components/home/logoCarousel";
 import ServiceCards from "@/components/home/services";

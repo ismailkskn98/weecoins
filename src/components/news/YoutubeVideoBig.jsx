@@ -2,27 +2,25 @@
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
 import htmlEncoderDecoder from "html-encoder-decoder";
-import { useTranslations } from "next-intl";
 import YoutubeVideoCarousel from "./YoutubeVideoCarousel";
 
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 export default function YoutubeVideoBig({ videos }) {
-  const t = useTranslations("NewsFromUs");
   let encoded = null;
 
   const [currentVideo, setCurrentVideo] = useState(
     videos && videos.length > 0
       ? {
-          videoUrl: `https://youtu.be/${videos[0].id.videoId}`,
-          title: videos[0].snippet.title,
-          videoData: "",
-        }
+        videoUrl: `https://youtu.be/${videos[0].id.videoId}`,
+        title: videos[0].snippet.title,
+        videoData: "",
+      }
       : {
-          videoUrl: `https://youtu.be/ezTGPkDZTcw`,
-          title: "WEECOINS - Hayallerine Aralanan Kapı",
-          videoData: "",
-        }
+        videoUrl: `https://youtu.be/ezTGPkDZTcw`,
+        title: "WEECOINS - Hayallerine Aralanan Kapı",
+        videoData: "",
+      }
   );
 
   const activeVideo = (videoId, title, videoData) => {
@@ -35,9 +33,6 @@ export default function YoutubeVideoBig({ videos }) {
 
   return (
     <main className="flex w-full flex-col items-start gap-12 rounded-[22px] bg-video-bg py-14 sm:py-28">
-      <h2 id="mediaVideo" className="py-4 text-start pl-4 text-[36px] font-bold leading-10 text-theme-black sm:text-[45px]">
-        {t("mediaTitle")}
-      </h2>
       <section className="flex w-full flex-col items-start justify-start gap-12 sm:gap-16 md:flex-row">
         <article className="flex w-full max-w-full flex-1 flex-col items-start gap-4 px-4 lg:max-w-[70%]">
           <div className="h-[420px] w-full overflow-hidden rounded-2xl lg:h-[500px]">

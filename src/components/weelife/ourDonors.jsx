@@ -10,12 +10,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import SuccessModal from "./successModal";
 import OurDonorsText from "./ourDonorsText";
-
-const DonationSchema = Yup.object().shape({
-  name: Yup.string().min(3, "Name is too short").required("Name is required"),
-  phone: Yup.string().min(6, "Phone number is too short").required("Phone number is required"),
-  amount: Yup.number().min(1, "Amount must be at least 1").required("Amount is required"),
-});
+import { useTranslations } from "next-intl";
 
 const initialValues = {
   name: "",
@@ -26,14 +21,21 @@ const initialValues = {
 }
 
 export default function Component() {
+  const t = useTranslations("WeelifePage");
   const [openModal, setOpenModal] = useState(false);
   const [formValues, setFormValues] = useState({ name: "", wallet: "" });
   const presetAmounts = ["500", "250", "100", "50", "25"];
+  const [wallet, setWallet] = useState("325şlk32şkl3kweyşkj32tşl23");
+
+  const DonationSchema = Yup.object().shape({
+    name: Yup.string().min(3, t("form.name.validation.min")).required(t("form.name.validation.required")),
+    phone: Yup.string().min(6, t("form.phone.validation.min")).required(t("form.phone.validation.required")),
+    amount: Yup.number().min(1, t("form.amount.validation.min")).required(t("form.amount.validation.required")),
+  });
 
   const handleSubmit = (values, { setSubmitting, resetForm }) => {
     console.log("Form values:", values);
     setSubmitting(false);
-    const wallet = "325şlk32şkl3kweyşkj32tşl23";
     setFormValues({ name: values.name, wallet, amount: values.amount });
     resetForm();
     setOpenModal(true);
@@ -43,7 +45,7 @@ export default function Component() {
     <main className="w-full grid lg:grid-cols-2 gap-8">
       <Card className="h-fit">
         <CardHeader className="text-center pb-4">
-          <CardTitle className="text-xl font-semibold text-gray-800">Toplam Bağış: 1,799.07$</CardTitle>
+          <CardTitle className="text-xl font-semibold text-gray-800">{t("totalDonation")}: 1,799.07$</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <Formik
@@ -54,7 +56,7 @@ export default function Component() {
             {({ values, errors, touched, setFieldValue, isSubmitting }) => (
               <Form className="space-y-4">
                 <article>
-                  <Field as={Input} name="name" placeholder="Name Surname" className={`w-full ${errors.name && touched.name ? "border-red-500" : ""}`} />
+                  <Field as={Input} name="name" placeholder={t("form.name.placeholder")} className={`w-full ${errors.name && touched.name ? "border-red-500" : ""}`} />
                   <ErrorMessage name="name" component="div" className="text-red-500 text-xs mt-1" />
                 </article>
 
@@ -91,7 +93,7 @@ export default function Component() {
 
                 <article className="relative">
                   <Input
-                    placeholder="Custom Amount"
+                    placeholder={t("form.amount.placeholder")}
                     value={values.customAmount}
                     onChange={(e) => {
                       const value = e.target.value;
@@ -114,8 +116,8 @@ export default function Component() {
                       name="showInfo"
                       className="form-checkbox"
                     />
-                    <span className="text-sm">Bilgilerimi göster</span>
-                    <p className="text-xs text-red-600 -ml-1">{"(Yalnızca isminiz gösterilir.)"}</p>
+                    <span className="text-sm">{t("infoShow")}</span>
+                    <p className="text-xs text-red-600 -ml-1">{t("infoShowDesc")}</p>
                   </label>
                   <ErrorMessage name="showInfo" component="div" className="text-red-500 text-xs mt-1" />
                 </article>
@@ -126,14 +128,14 @@ export default function Component() {
                   className={`relative group overflow-hidden flex items-center gap-1 px-6 py-2 text-sm xl:text-base mt-2 rounded-sm w-min mx-auto text-nowrap self-center cursor-pointer ${isSubmitting ? "cursor-not-allowed bg-gray-400 text-gray-700" : "bg-[#FDC739] text-text-black"
                     }`}
                 >
-                  <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-12 group-hover:-translate-y-1/2 transition-all duration-300 pointer-events-none">Donate</span>
+                  <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-12 group-hover:-translate-y-1/2 transition-all duration-300 pointer-events-none">{t("donate")}</span>
 
                   <span className="inline-block bg-main-black absolute -left-[1.5px] top-1/2 -translate-y-1/2 w-[3px] h-4 rounded-2xl"></span>
                   <span className="inline-block bg-main-black absolute -right-[1.5px] top-1/2 -translate-y-1/2 w-[3px] h-4 rounded-2xl"></span>
                   <span className="inline-block bg-main-black absolute left-1/2 top-[-1.5px] -translate-x-1/2 w-4 h-[3px] rounded-2xl"></span>
                   <span className="inline-block bg-main-black absolute left-1/2 bottom-[-1.5px] -translate-x-1/2 w-4 h-[3px] rounded-2xl"></span>
 
-                  <span className="translate-y-0 group-hover:translate-y-12 transition-all duration-300 relative z-20 inline-block transform capitalize">{isSubmitting ? "Processing..." : "Donate"}</span>
+                  <span className="translate-y-0 group-hover:translate-y-12 transition-all duration-300 relative z-20 inline-block transform capitalize">{isSubmitting ? `${t("proccessing")}...` : t("donate")}</span>
                 </button>
               </Form>
             )}

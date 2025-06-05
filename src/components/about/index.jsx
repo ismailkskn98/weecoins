@@ -4,8 +4,11 @@ import Image from "next/image";
 import { Link } from "@/i18n/navgation";
 import { IoIosLink } from "react-icons/io";
 import WeeComiGlobal from "./weeComiGlobal";
+import { useTranslations } from "next-intl";
 
 export function TimelineDemo() {
+  const t = useTranslations("AboutPage");
+
   const weeGoldImages = [
     {
       link: "https://weecoinspremium.com",
@@ -39,13 +42,10 @@ export function TimelineDemo() {
 
   const data = [
     {
-      title: "WeeGold Network Nedir?",
+      title: t("weegold.title"),
       content: (
         <div>
-          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
-            WeeGold ağı, WeeComi International tarafından işletilen, kripto para dünyasında geniş kullanım alanlarına sahip bir ağdır. 2020 yılında piyasaya sürülen WeeCoins Premium (WCP) ve WeeCoins (WCS) kripto
-            paralarını destekler ve çeşitli uluslararası platformlarda aktif olarak işlem görür.
-          </p>
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">{t("weegold.content")}</p>
           <div className="grid grid-cols-2 gap-4">
             {weeGoldImages.map((item, index) => (
               <Link href={item.link} key={index} target="_blank" className="relative group">
@@ -67,20 +67,14 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Blockchain Nedir?",
+      title: t("blockchain.title"),
       content: (
         <div>
-          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
-            Blockchain, verilerin güvenli ve şeffaf bir şekilde saklanmasını sağlayan dağıtık bir defter teknolojisidir. Her veri parçası, zincirde bir blok olarak yer alır ve bu bloklar kriptografik olarak
-            birbirine bağlıdır.
-          </p>
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">{t("blockchain.content")}</p>
           <div className="">
             <Image src="/images/blockchain.png" alt="blockchain" width={500} height={500} className="h-40 w-full rounded-lg object-contain md:h-60 lg:h-96" />
           </div>
-          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
-            Bu teknoloji, özellikle kripto paralar için kullanılır, ancak finans, tedarik zinciri, dijital kimlik gibi birçok alanda da uygulanır. Blockchain’in merkezi olmayan yapısı, aracıları ortadan kaldırarak
-            maliyetleri düşürür ve işlemleri hızlandırır.
-          </p>
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">{t("blockchain.content2")}</p>
         </div>
       ),
     },
@@ -88,10 +82,7 @@ export function TimelineDemo() {
       title: "WeeComi International",
       content: (
         <div>
-          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
-            2013 yılında kurulan WeeComi International, yapay zeka tabanlı kripto para borsalarında işlem gören projelere sahip bir yazılım şirketidir. Dünya genelinde 10 ülkede yatırımcısı bulunan şirketin, 40'a
-            yakın iş ortağı ile global bir marka konumundadır.
-          </p>
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">{t("weecomi.content")}</p>
           <div className="relative h-40 w-full md:h-60 lg:h-96 2xl:h-[30rem]">
             <WeeComiGlobal />
           </div>
@@ -102,12 +93,8 @@ export function TimelineDemo() {
       title: "WeeLife",
       content: (
         <div>
-          <p className="mb-1 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
-            WeeLife, WeeComi International tarafından Afrika'da, özellikle Tanzanya'da yaşam kalitesini artırmak amacıyla başlatılan bir yardım projesidir.
-          </p>
-          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">
-            Proje, dünya çapında yardım zinciri oluşturmayı ve sosyal sorumluluk projelerini teşvik etmeyi hedefler.
-          </p>
+          <p className="mb-1 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">{t("weelife.content")} </p>
+          <p className="mb-12 text-xs md:text-sm lg:text-base font-normal text-main-white/90 leading-7">{t("weelife.content2")}</p>
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="/images/bagiss.jpg"
@@ -130,7 +117,7 @@ export function TimelineDemo() {
   ];
   return (
     <div className="relative w-full overflow-clip">
-      <Timeline data={data} isAbout={true} />
+      <Timeline data={data} isAbout={true} title={t("h1")} subtitle={t("subtitle")} />
     </div>
   );
 }

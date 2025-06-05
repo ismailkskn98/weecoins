@@ -9,7 +9,7 @@ export default function Slide1({ classNames, index }) {
   const t = useTranslations("HomePage.ecosystem");
   return (
     <article
-      className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 h-[65vh] rounded-2xl sticky flex flex-col lg:flex-row items-start justify-center gap-4 md:gap-8 bg-zinc-900 p-3 overflow-hidden ${classNames}`}
+      className={`w-full max-w-[98%] lg:max-w-[1100px] mx-5 rounded-2xl sticky flex flex-col lg:flex-row items-start justify-center gap-4 md:gap-8 bg-zinc-900 p-3 overflow-hidden ${classNames}`}
       style={{
         top: `calc(${index} * 1.5rem + 4rem)`,
       }}

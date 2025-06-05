@@ -7,8 +7,10 @@ import {
     DialogTitle,
 } from "@/components/ui/dialog";
 import CopyClipboard from "./copyClipboard";
+import { useTranslations } from "next-intl";
 
 export default function SuccessModal({ formValues, openModal, setOpenModal }) {
+    const t = useTranslations("WeelifePage.modal");
     return (
         <Dialog open={openModal} onOpenChange={setOpenModal}>
             <DialogContent className="bg-white rounded-lg text-text-black p-6 sm:p-8 shadow-lg h-full max-h-[45vh] w-full max-w-[90vw] md:max-w-[80vw] lg:max-w-[50vw] overflow-hidden">
@@ -19,26 +21,26 @@ export default function SuccessModal({ formValues, openModal, setOpenModal }) {
 
                 <DialogHeader className="space-y-1">
                     <DialogTitle className="text-xl sm:text-2xl font-semibold">
-                        Merhaba, sevgili <span className="text-primary">{formValues.name}</span>!
+                        {t("hello")} <span className="text-primary">{formValues.name}</span>!
                     </DialogTitle>
                     <DialogDescription className="text-sm text-gray-700">
-                        Adınıza oluşturulan aşağıdaki cüzdan adresine bağışlamak istediğiniz miktarı gönderebilirsiniz.
+                        {t("nameWallet")}
                     </DialogDescription>
                     <p className="text-sm text-gray-700">
-                        Bağış yaptıktan sonra isminiz destekçiler listesinde yer alacaktır.
+                        {t("afterDonation")}
                     </p>
                 </DialogHeader>
                 <div className="w-full flex flex-col items-start gap-1">
-                    <p className="text-sm font-medium">Adınıza oluşturulan cüzdan adresi:</p>
+                    <p className="text-sm font-medium">{t("nameWalletAddress")}:</p>
                     <CopyClipboard text={formValues.wallet} />
                 </div>
-                <p className="text-sm text-red-600">*Cüzdana ileteceğiniz tutarla eşit olmasına dikkat ediniz. Tutarların eşit olmaması durumunda işlem yapılmamaktadır.</p>
+                <p className="text-sm text-red-600">*{t("note")}</p>
                 <div className="mt-6 w-full flex justify-center">
                     <button
                         onClick={() => setOpenModal(false)}
                         className="px-4 py-2 rounded-md bg-red-600 text-white hover:bg-red-700 transition text-sm cursor-pointer mb-2"
                     >
-                        Çıkış Yap
+                        {t("close")}
                     </button>
                 </div>
             </DialogContent>

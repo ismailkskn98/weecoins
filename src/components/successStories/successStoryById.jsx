@@ -3,7 +3,7 @@ import { getContactIcon } from "./getContactIcon";
 import { Link } from "@/i18n/navgation";
 import { IoIosArrowBack } from "react-icons/io";
 import Image from "next/image";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { BackgroundGradient } from "../ui/background-gradient";
 
 // {
@@ -27,6 +27,7 @@ const getFlagUrlByLanguage = (langCode) => {
 };
 
 export default function dataById({ data }) {
+  const t = useTranslations("SuccessStoriesPage");
   const ContactIcon = getContactIcon(data.contact_type);
   const locale = useLocale();
 
@@ -53,7 +54,7 @@ export default function dataById({ data }) {
       <main className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
         <Link href="/success-stories" className="inline-flex items-center text-sm font-medium mb-8 text-theme-black hover:underline">
           <IoIosArrowBack className="mr-1" />
-          Geri Dön
+          {t("back")}
         </Link>
 
         <BackgroundGradient className="relative bg-zinc-900 rounded-3xl shadow-xl p-6 md:px-10 md:py-16 lg:flex gap-10 group">

@@ -4,8 +4,10 @@ import Image from "next/image";
 import { Link } from "@/i18n/navgation";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import HandHold from "./handHold";
+import { useTranslations } from "next-intl";
 
 export function EcosystemMain() {
+  const t = useTranslations("EcosystemPage");
   const weeCardImages = ["/images/weecard-theme/theme-1.png", "/images/weecard-theme/theme-2.png", "/images/weecard-theme/theme-3.png", "/images/weecard-theme/theme-4.png"];
 
   const data = [
@@ -17,12 +19,9 @@ export function EcosystemMain() {
             <div className="w-full flex flex-col items-start justify-between gap-2">
               <div className="flex items-center gap-2">
                 <Image src="/images/weecard.png" alt="weezard" width={50} height={50} className="h-12 w-12 rounded-full object-contain" />
-                <h3 className="text-2xl font-medium">WeeCard Nedir?</h3>
+                <h3 className="text-2xl font-medium">{t("weecard.title")}</h3>
               </div>
-              <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">
-                WeeCard ile tüm iletişim bilgilerini dijitalleştir, QR kodla anında paylaş! Gelişmiş arayüzü sayesinde sosyal medya, ürünler, kataloglar ve iletişim kanallarını tek bir yerde topla. Her şey
-                profesyonel, hızlı ve etkileyici.
-              </p>
+              <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">{t("weecard.content")}</p>
               <Link
                 href="https://weecard.org"
                 target="_blank"
@@ -62,12 +61,9 @@ export function EcosystemMain() {
           <div className="w-full flex flex-col items-start justify-between gap-2">
             <div className="flex items-center gap-2">
               <Image src="/images/weezard.png" alt="weezard" width={50} height={50} className="h-12 w-12 rounded-full object-contain" />
-              <h3 className="text-2xl font-medium">WeeZard Nedir?</h3>
+              <h3 className="text-2xl font-medium">{t("weezard.title")}</h3>
             </div>
-            <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">
-              WeeZard ile eğlenceyi kazanca dönüştür! Jackpot, kazı kazan gibi oyunlarla vakit geçirirken WCP kazanırsın. Kazandığın WCP'leri çeşitli avantajlar için kullanabilir, daha fazlasını keşfettikçe keyfini
-              katlayabilirsin. Her oyunda şansını dene, her kazançta heyecanı ikiye katla!
-            </p>
+            <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">{t("weezard.content")}</p>
             <Link
               href="https://weezard.org"
               target="_blank"
@@ -95,12 +91,9 @@ export function EcosystemMain() {
             <article className="w-full flex flex-col items-start justify-between gap-2">
               <div className="flex items-center gap-2">
                 <Image src="/images/weecomi.png" alt="weecomi" width={50} height={50} className="h-12 w-12 rounded-full object-contain" />
-                <h3 className="text-2xl font-medium">WeeKobi Nedir?</h3>
+                <h3 className="text-2xl font-medium">{t("weekobi.title")}</h3>
               </div>
-              <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">
-                KOBİ’leri dijitalde müşterilerle buluşturan, indirim kartı ve bayilik modeliyle küresel avantajlar ve pasif gelir sunan sosyal ticaret platformudur. Reklam bütçeniz sınırlı olabilir ancak doğru
-                kanallar ve stratejiyle daha az maliyetle daha fazla görünürlük elde edebilirsiniz. İşinizi büyütmek için potansiyel müşterilere daha etkili şekilde erişmeniz önemli.
-              </p>
+              <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">{t("weekobi.content")}</p>
               <Link
                 href="https://weecomi.com/"
                 target="_blank"
@@ -131,12 +124,9 @@ export function EcosystemMain() {
             <article className="w-full flex flex-col items-start justify-between gap-2">
               <div className="flex items-center gap-2">
                 <Image src="/images/weecomi.png" alt="weecomi" width={50} height={50} className="h-12 w-12 rounded-full object-contain" />
-                <h3 className="text-2xl font-medium capitalize">Müşteri ve kobi</h3>
+                <h3 className="text-2xl font-medium capitalize">{t("weekobi.title2")}</h3>
               </div>
-              <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">
-                WeeKobi, işletmeler için dijital bir kazanç ağıdır. Müşteri, işletmeye geldiğinde WCP ile ödeme yapabilir. Bu sayede hem işletme reklamını hali hazırdaki kullanıcılara yapmış olur hem de kazanç
-                sağlar. WeePoint, müşterilerin çevresindeki işletmeleri keşfetmesini sağlar. Müşteri uygulamaya kayıt olur, referans koduyla başka kullanıcılar davet edebilir.
-              </p>
+              <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">{t("weekobi.content2")}</p>
             </article>
           </main>
         </section>
@@ -149,12 +139,9 @@ export function EcosystemMain() {
           <div className="w-full flex flex-col items-start justify-between gap-2">
             <div className="flex items-center gap-2">
               <Image src="/images/weesale.png" alt="weesale" width={60} height={60} className="h-14 w-14 rounded-full object-contain" />
-              <h3 className="text-2xl font-medium">WeeSale Nedir?</h3>
+              <h3 className="text-2xl font-medium">{t("weesale.title")}</h3>
             </div>
-            <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">
-              WeeSale ile sıfır veya ikinci el ürünlerini WCP ile kolayca satışa çıkar. Her satıştan kazandığın WCP'leri harcayabilir ya da yatırım olarak kullanabilirsin. Referanslarınla da pasif gelir elde et!
-              Üstelik kullanıcı dostu arayüzü sayesinde ilan vermek ve satış yapmak dakikalar içinde tamamlanır.
-            </p>
+            <p className="text-xs md:text-sm font-normal text-main-white/90 leading-7">{t("weesale.content")}</p>
             <Link
               href="https://weesale.shop"
               target="_blank"
@@ -183,7 +170,7 @@ export function EcosystemMain() {
   ];
   return (
     <div className="relative w-full overflow-clip">
-      <Timeline data={data} />
+      <Timeline data={data} title={t("h1")} subtitle={t("subtitle")} />
     </div>
   );
 }

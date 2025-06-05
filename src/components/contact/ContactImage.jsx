@@ -11,7 +11,7 @@ export default function ContactImage() {
 
   const { rive, RiveComponent } = useRive({
     src: "/rive/contact.riv",
-    stateMachines: "State Machine 1",
+    stateMachines: "state_main",
     autoplay: true,
     layout: new Layout({
       fit: Fit.Contain,
